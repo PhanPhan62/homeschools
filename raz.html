@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from homeschools.id.vn/home/raz.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Homeschools Play Online</title>
+  <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+.home-link {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .user-greeting {
+            margin-bottom: 20px;
+        }
+
+        .playlist-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .playlist-menu select {
+            padding: 5px;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        }
+
+        video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+				/* Chỉnh font chữ cho phần menu */
+    .playlist-menu select {
+        padding: 5px;
+        font-size: 16px; /* Thay đổi kích thước font chữ tại đây */
+    }
+
+    /* Chỉnh font chữ cho danh sách video */
+    .playlist-menu select option {
+        font-size: 14px; /* Thay đổi kích thước font chữ tại đây */
+    }
+    </style>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com/" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">  HS Play Online </span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+        </li><!-- End Search Icon-->
+
+       
+
+        <li class="nav-item dropdown">
+
+          <!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+                       <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/Play-online.png" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        
+            
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li>
+	  	  
+	  <!-- End Dashboard Nav -->
+
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Acellus</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="acellusba45.html?playlist=0">
+              <i class="bi bi-circle"></i><span>Acellus-GK</span>
+            </a>
+          </li>
+		  <li>
+            <a href="acellus03d3.html?playlist=1">
+              <i class="bi bi-circle"></i><span>Acellus-G1</span>
+            </a>
+          </li>
+		  
+		  <li>
+            <a href="acellus0961.html?playlist=2">
+              <i class="bi bi-circle"></i><span>Acellus-G2</span>
+            </a>
+          </li>
+		  <li>
+            <a href="acellusaae0.html?playlist=3">
+              <i class="bi bi-circle"></i><span>Acellus-G3</span>
+            </a>
+          </li>
+		  
+		   <li>
+            <a href="acellus4650.html?playlist=4">
+              <i class="bi bi-circle"></i><span>Acellus-G4</span>
+            </a>
+          </li>
+		  
+		  <li>
+            <a href="acellus6f23.html?playlist=5">
+              <i class="bi bi-circle"></i><span>Acellus-G5</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Forms Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://fed.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>FED</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="https://kle.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>KLE</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="https://muzzy.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>Muzzy</span>
+        </a>
+      </li>
+	  	  	   <li class="nav-item">
+        <a class="nav-link collapsed" href="pbs.html">
+          <i class="bi bi-grid"></i>
+          <span>PBS KIDS</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="dw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Drawing</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="cw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Cooking</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="chess.html">
+          <i class="bi bi-grid"></i>
+          <span>Chess</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="as.html">
+          <i class="bi bi-grid"></i>
+          <span>It's AumSum Time</span>
+        </a>
+      </li>
+	  	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="al.html">
+          <i class="bi bi-grid"></i>
+          <span>Alphablocks</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="num.html">
+          <i class="bi bi-grid"></i>
+          <span>Numberblocks</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="pep.html">
+          <i class="bi bi-grid"></i>
+          <span>Peppa Pig</span>
+        </a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="phim.html">
+          <i class="bi bi-grid"></i>
+          <span>Film - Online</span>
+        </a>
+      </li>
+	    	  
+<li class="nav-item">
+        <a class="nav-link collapsed" href="ha.html">
+          <i class="bi bi-grid"></i>
+          <span>Hoffman Academy</span>
+        </a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="he.html">
+          <i class="bi bi-grid"></i>
+          <span>Heinemann</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="gogo.html">
+          <i class="bi bi-grid"></i>
+          <span>GoGo English</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="eng.html">
+          <i class="bi bi-grid"></i>
+          <span>English Singsing</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="raz.html">
+          <i class="bi bi-grid"></i>
+          <span>Razkids </span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="ungdung.html">
+          <i class="bi bi-grid"></i>
+          <span>Ứng Dụng </span>
+        </a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link collapsed" href="hotrosudung.html">
+          <i class="bi bi-grid"></i>
+          <span>Support</span>
+        </a>
+      </li>
+      </li><!-- End Icons Nav -->
+      </li><!-- End Components Nav -->
+                 </ul>
+      </li><!-- End Components Nav -->
+
+         
+
+      
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+  </body>
+
+
+<!-- Mirrored from homeschools.id.vn/home/raz.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+</html>  <main id="main" class="main">
+
+    <center>
+        <div class="pagetitle">
+            <h3>Razkids Online</h3>
+            <nav>
+            </nav>
+        </div>
+    </center>
+    <!-- End Page Title -->
+
+    <!-- Table with stripped rows -->
+    <div class="container">
+        
+                    <div class="video-container">
+                <video id="videoPlayer" controls autoplay="false">
+                    <source src="#" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ trình phát video.
+                </video>
+                
+            </div>
+            <div class="playlist-menu">
+                <select name="playlist" onchange="onPlaylistChange(this)">
+                                            <option value="0" selected>Level-A</option>
+                                            <option value="1" >Level-AA</option>
+                                            <option value="2" >Level-B</option>
+                                            <option value="3" >Level-C</option>
+                                            <option value="4" >Level-D</option>
+                                            <option value="5" >Level-E</option>
+                                            <option value="6" >Level-F</option>
+                                            <option value="7" >Level-G</option>
+                                    </select>
+
+                <select name='index' onchange="onVideoChange(this)">
+                                                                    <option value="0" selected>Chọn Video phía dưới.</option>
+                                                                    <option value="1" >A All Kinds of Faces</option>
+                                                                    <option value="2" >A Baby Animals</option>
+                                                                    <option value="3" >A Bedtime Counting</option>
+                                                                    <option value="4" >A Bird Colors</option>
+                                                                    <option value="5" >A Bird Goes Home</option>
+                                                                    <option value="6" >A Car Parts</option>
+                                                                    <option value="7" >A Carlos Counts Kittens</option>
+                                                                    <option value="8" >A Carlos Goes School</option>
+                                                                    <option value="9" >A Fish Sees</option>
+                                                                    <option value="10" >A fruit color</option>
+                                                                    <option value="11" >A Fruit</option>
+                                                                    <option value="12" >A Fun in the Water</option>
+                                                                    <option value="13" >A Getting Dressed</option>
+                                                                    <option value="14" >A Go Fly a Kite</option>
+                                                                    <option value="15" >A Going Places</option>
+                                                                    <option value="16" >A Hamster Home</option>
+                                                                    <option value="17" >A He Runs</option>
+                                                                    <option value="18" >A Hello, Butterfly</option>
+                                                                    <option value="19" >A Hot and Cold</option>
+                                                                    <option value="20" >A I Can Skate</option>
+                                                                    <option value="21" >A I Can</option>
+                                                                    <option value="22" >A I Draw a Bunny</option>
+                                                                    <option value="23" >A I Love Flowers</option>
+                                                                    <option value="24" >A i love pirates</option>
+                                                                    <option value="25" >A I Save Money</option>
+                                                                    <option value="26" >A I See my Colors</option>
+                                                                    <option value="27" >A I Set the Table</option>
+                                                                    <option value="28" >A In and Out</option>
+                                                                    <option value="29" >A Maria  Counts Pumpkins</option>
+                                                                    <option value="30" >A Maria Goes to School</option>
+                                                                    <option value="31" >A Mom and I</option>
+                                                                    <option value="32" >A Muscles</option>
+                                                                    <option value="33" >A My Body</option>
+                                                                    <option value="34" >A My Dog</option>
+                                                                    <option value="35" >A My Easter Eggs</option>
+                                                                    <option value="36" >A My Face</option>
+                                                                    <option value="37" >A My Hair</option>
+                                                                    <option value="38" >A My House</option>
+                                                                    <option value="39" >A My Little Brother</option>
+                                                                    <option value="40" >A My Room</option>
+                                                                    <option value="41" >A Nice, Not Nice</option>
+                                                                    <option value="42" >A Now We Bake!</option>
+                                                                    <option value="43" >A Oh, Raccoon</option>
+                                                                    <option value="44" >A Opposites</option>
+                                                                    <option value="45" >A Pond Animals</option>
+                                                                    <option value="46" >A Rabbits</option>
+                                                                    <option value="47" >A Safe Not Safe</option>
+                                                                    <option value="48" >A Shapes Nature</option>
+                                                                    <option value="49" >A Snake Colors</option>
+                                                                    <option value="50" >A Spring Weather</option>
+                                                                    <option value="51" >A Sundae Time</option>
+                                                                    <option value="52" >A The Big Cat</option>
+                                                                    <option value="53" >A The Forest</option>
+                                                                    <option value="54" >A The Mall</option>
+                                                                    <option value="55" >A The Parade</option>
+                                                                    <option value="56" >A The Rainstorm</option>
+                                                                    <option value="57" >A These Shoes</option>
+                                                                    <option value="58" >A This Is My Bear</option>
+                                                                    <option value="59" >A This Is My Halloween</option>
+                                                                    <option value="60" >A This Smells!</option>
+                                                                    <option value="61" >A Up and Down</option>
+                                                                    <option value="62" >A We Can Make Sounds</option>
+                                                                    <option value="63" >A What I Like</option>
+                                                                    <option value="64" >A What Lives Here</option>
+                                                                    <option value="65" >A What Makes Me Happy</option>
+                                                                    <option value="66" >A Who Has Is</option>
+                                                                    <option value="67" >A You Can Dance</option>
+                                    </select>
+            </div>
+			 <div class="container">
+                <form method="post" action="#">
+                    <input type="text" name="search" placeholder="Tìm kiếm tên video" style="width: 250px;">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+				 Trang chủ :<b><a href="https://www.kidsa-z.com/main/Login/">https://www.kidsa-z.com/main/Login/ </a></b> <br>teacher : <b>mzyzes</b> <br> Profiles:<b>Congnghe40 </b><br> Pass :<b>Hình con Thỏ </b><br>
+            </div>
+            </div>
+
+    <script>
+        // Thêm sự kiện khi trang được tải để tự động phát video ban đầu
+        window.addEventListener('DOMContentLoaded', function () {
+            playCustomVideo();
+        });
+
+        function onPlaylistChange(selectElement) {
+            const playlistIndex = selectElement.value;
+            window.location.href = `?playlist=${playlistIndex}`;
+        }
+
+        function onVideoChange(selectElement) {
+            const playlistIndex = document.querySelector('select[name="playlist"]').value;
+            const videoIndex = selectElement.value;
+            window.location.href = `?playlist=${playlistIndex}&index=${videoIndex}`;
+        }
+
+        function playCustomVideo() {
+            const videoUrl = "";
+            const videoElement = document.querySelector('#videoPlayer');
+
+            // Thiết lập src cho videoElement để tự động phát video
+            videoElement.src = videoUrl;
+            videoElement.play();
+        }
+
+function playCustomVideo() {
+            const videoOptions = [{"title":"Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi.\r"},{"title":"A All Kinds of Faces\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20All%20Kinds%20of%20Faces.mp4"},{"title":"A Baby Animals\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Baby%20Animals.mp4"},{"title":"A Bedtime Counting\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bedtime%20Counting.mp4"},{"title":"A Bird Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bird%20Colors.mp4"},{"title":"A Bird Goes Home\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bird%20Goes%20Home.mp4"},{"title":"A Car Parts\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Car%20Parts.mp4"},{"title":"A Carlos Counts Kittens\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Carlos%20Counts%20Kittens.mp4"},{"title":"A Carlos Goes School\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Carlos%20Goes%20School.mp4"},{"title":"A Fish Sees\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fish%20Sees.mp4"},{"title":"A fruit color\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20fruit%20color.mp4"},{"title":"A Fruit\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fruit.mp4"},{"title":"A Fun in the Water\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fun%20in%20the%20Water.mp4"},{"title":"A Getting Dressed\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Getting%20Dressed.mp4"},{"title":"A Go Fly a Kite\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Go%20Fly%20a%20Kite.mp4"},{"title":"A Going Places\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Going%20Places.mp4"},{"title":"A Hamster Home\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hamster%20Home.mp4"},{"title":"A He Runs\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20He%20Runs.mp4"},{"title":"A Hello, Butterfly\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hello,%20Butterfly.mp4"},{"title":"A Hot and Cold\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hot%20and%20Cold.mp4"},{"title":"A I Can Skate\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Can%20Skate.mp4"},{"title":"A I Can\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Can.mp4"},{"title":"A I Draw a Bunny\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Draw%20a%20Bunny.mp4"},{"title":"A I Love Flowers\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Love%20Flowers.mp4"},{"title":"A i love pirates\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20i%20love%20pirates.mp4"},{"title":"A I Save Money\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Save%20Money.mp4"},{"title":"A I See my Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20See%20my%20Colors.mp4"},{"title":"A I Set the Table\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Set%20the%20Table.mp4"},{"title":"A In and Out\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20In%20and%20Out.mp4"},{"title":"A Maria  Counts Pumpkins\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Maria%20%20Counts%20Pumpkins.mp4"},{"title":"A Maria Goes to School\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Maria%20Goes%20to%20School.mp4"},{"title":"A Mom and I\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Mom%20and%20I.mp4"},{"title":"A Muscles\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Muscles.mp4"},{"title":"A My Body\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Body.mp4"},{"title":"A My Dog\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Dog.mp4"},{"title":"A My Easter Eggs\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Easter%20Eggs.mp4"},{"title":"A My Face\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Face.mp4"},{"title":"A My Hair\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Hair.mp4"},{"title":"A My House\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20House.mp4"},{"title":"A My Little Brother\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Little%20Brother.mp4"},{"title":"A My Room\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Room.mp4"},{"title":"A Nice, Not Nice\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Nice,%20Not%20Nice.mp4"},{"title":"A Now We Bake!\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Now%20We%20Bake!.mp4"},{"title":"A Oh, Raccoon\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Oh,%20Raccoon.mp4"},{"title":"A Opposites\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Opposites.mp4"},{"title":"A Pond Animals\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Pond%20Animals.mp4"},{"title":"A Rabbits\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Rabbits.mp4"},{"title":"A Safe Not Safe\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Safe%20Not%20Safe.mp4"},{"title":"A Shapes Nature\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Shapes%20Nature.mp4"},{"title":"A Snake Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Snake%20Colors.mp4"},{"title":"A Spring Weather\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Spring%20Weather.mp4"},{"title":"A Sundae Time\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Sundae%20Time.mp4"},{"title":"A The Big Cat\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Big%20Cat.mp4"},{"title":"A The Forest\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Forest.mp4"},{"title":"A The Mall\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Mall.mp4"},{"title":"A The Parade\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Parade.mp4"},{"title":"A The Rainstorm\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Rainstorm.mp4"},{"title":"A These Shoes\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20These%20Shoes.mp4"},{"title":"A This Is My Bear\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Is%20My%20Bear.mp4"},{"title":"A This Is My Halloween\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Is%20My%20Halloween.mp4"},{"title":"A This Smells!\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Smells!.mp4"},{"title":"A Up and Down\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Up%20and%20Down.mp4"},{"title":"A We Can Make Sounds\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20We%20Can%20Make%20Sounds.mp4"},{"title":"A What I Like\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20I%20Like.mp4"},{"title":"A What Lives Here\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20Lives%20Here.mp4"},{"title":"A What Makes Me Happy\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20Makes%20Me%20Happy.mp4"},{"title":"A Who Has Is\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Who%20Has%20Is.mp4"},{"title":"A You Can Dance\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20You%20Can%20Dance.mp4"}];
+            const videoElement = document.querySelector('#videoPlayer');
+            const initialVideoUrl = videoOptions[0].path; // Lấy URL của video đầu tiên
+
+            // Thiết lập src cho videoElement để tự động phát video đầu tiên
+            videoElement.src = initialVideoUrl;
+            videoElement.play();
+        }
+
+        // Thêm sự kiện khi thay đổi video được chọn
+        function onVideoChange(selectElement) {
+            const playlistIndex = document.querySelector('select[name="playlist"]').value;
+            const videoIndex = selectElement.value;
+            const videoOptions = [{"title":"Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi.\r"},{"title":"A All Kinds of Faces\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20All%20Kinds%20of%20Faces.mp4"},{"title":"A Baby Animals\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Baby%20Animals.mp4"},{"title":"A Bedtime Counting\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bedtime%20Counting.mp4"},{"title":"A Bird Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bird%20Colors.mp4"},{"title":"A Bird Goes Home\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bird%20Goes%20Home.mp4"},{"title":"A Car Parts\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Car%20Parts.mp4"},{"title":"A Carlos Counts Kittens\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Carlos%20Counts%20Kittens.mp4"},{"title":"A Carlos Goes School\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Carlos%20Goes%20School.mp4"},{"title":"A Fish Sees\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fish%20Sees.mp4"},{"title":"A fruit color\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20fruit%20color.mp4"},{"title":"A Fruit\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fruit.mp4"},{"title":"A Fun in the Water\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fun%20in%20the%20Water.mp4"},{"title":"A Getting Dressed\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Getting%20Dressed.mp4"},{"title":"A Go Fly a Kite\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Go%20Fly%20a%20Kite.mp4"},{"title":"A Going Places\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Going%20Places.mp4"},{"title":"A Hamster Home\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hamster%20Home.mp4"},{"title":"A He Runs\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20He%20Runs.mp4"},{"title":"A Hello, Butterfly\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hello,%20Butterfly.mp4"},{"title":"A Hot and Cold\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hot%20and%20Cold.mp4"},{"title":"A I Can Skate\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Can%20Skate.mp4"},{"title":"A I Can\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Can.mp4"},{"title":"A I Draw a Bunny\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Draw%20a%20Bunny.mp4"},{"title":"A I Love Flowers\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Love%20Flowers.mp4"},{"title":"A i love pirates\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20i%20love%20pirates.mp4"},{"title":"A I Save Money\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Save%20Money.mp4"},{"title":"A I See my Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20See%20my%20Colors.mp4"},{"title":"A I Set the Table\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Set%20the%20Table.mp4"},{"title":"A In and Out\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20In%20and%20Out.mp4"},{"title":"A Maria  Counts Pumpkins\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Maria%20%20Counts%20Pumpkins.mp4"},{"title":"A Maria Goes to School\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Maria%20Goes%20to%20School.mp4"},{"title":"A Mom and I\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Mom%20and%20I.mp4"},{"title":"A Muscles\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Muscles.mp4"},{"title":"A My Body\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Body.mp4"},{"title":"A My Dog\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Dog.mp4"},{"title":"A My Easter Eggs\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Easter%20Eggs.mp4"},{"title":"A My Face\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Face.mp4"},{"title":"A My Hair\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Hair.mp4"},{"title":"A My House\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20House.mp4"},{"title":"A My Little Brother\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Little%20Brother.mp4"},{"title":"A My Room\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Room.mp4"},{"title":"A Nice, Not Nice\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Nice,%20Not%20Nice.mp4"},{"title":"A Now We Bake!\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Now%20We%20Bake!.mp4"},{"title":"A Oh, Raccoon\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Oh,%20Raccoon.mp4"},{"title":"A Opposites\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Opposites.mp4"},{"title":"A Pond Animals\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Pond%20Animals.mp4"},{"title":"A Rabbits\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Rabbits.mp4"},{"title":"A Safe Not Safe\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Safe%20Not%20Safe.mp4"},{"title":"A Shapes Nature\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Shapes%20Nature.mp4"},{"title":"A Snake Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Snake%20Colors.mp4"},{"title":"A Spring Weather\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Spring%20Weather.mp4"},{"title":"A Sundae Time\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Sundae%20Time.mp4"},{"title":"A The Big Cat\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Big%20Cat.mp4"},{"title":"A The Forest\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Forest.mp4"},{"title":"A The Mall\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Mall.mp4"},{"title":"A The Parade\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Parade.mp4"},{"title":"A The Rainstorm\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Rainstorm.mp4"},{"title":"A These Shoes\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20These%20Shoes.mp4"},{"title":"A This Is My Bear\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Is%20My%20Bear.mp4"},{"title":"A This Is My Halloween\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Is%20My%20Halloween.mp4"},{"title":"A This Smells!\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Smells!.mp4"},{"title":"A Up and Down\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Up%20and%20Down.mp4"},{"title":"A We Can Make Sounds\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20We%20Can%20Make%20Sounds.mp4"},{"title":"A What I Like\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20I%20Like.mp4"},{"title":"A What Lives Here\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20Lives%20Here.mp4"},{"title":"A What Makes Me Happy\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20Makes%20Me%20Happy.mp4"},{"title":"A Who Has Is\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Who%20Has%20Is.mp4"},{"title":"A You Can Dance\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20You%20Can%20Dance.mp4"}];
+            const videoUrl = videoOptions[videoIndex].path;
+            playCustomVideoByUrl(videoUrl);
+        }
+
+        function playCustomVideoByUrl(videoUrl) {
+            const videoElement = document.querySelector('#videoPlayer');
+            videoElement.src = videoUrl;
+            videoElement.play();
+        }
+
+
+        // Hàm để tự động chuyển đến video tiếp theo
+        function autoPlayNextVideo() {
+            const currentIndex = parseInt(document.querySelector('select[name="index"]').value);
+            const nextIndex = (currentIndex + 1) % 68;
+            window.location.href = `?playlist=0&index=${nextIndex}`;
+        }
+
+        // Thêm sự kiện khi video kết thúc để tự động chuyển đến video tiếp theo
+    const videoElement = document.querySelector('#videoPlayer');
+    const playlistIndex = 0;
+    const videoOptions = [{"title":"Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi.\r"},{"title":"A All Kinds of Faces\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20All%20Kinds%20of%20Faces.mp4"},{"title":"A Baby Animals\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Baby%20Animals.mp4"},{"title":"A Bedtime Counting\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bedtime%20Counting.mp4"},{"title":"A Bird Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bird%20Colors.mp4"},{"title":"A Bird Goes Home\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Bird%20Goes%20Home.mp4"},{"title":"A Car Parts\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Car%20Parts.mp4"},{"title":"A Carlos Counts Kittens\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Carlos%20Counts%20Kittens.mp4"},{"title":"A Carlos Goes School\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Carlos%20Goes%20School.mp4"},{"title":"A Fish Sees\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fish%20Sees.mp4"},{"title":"A fruit color\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20fruit%20color.mp4"},{"title":"A Fruit\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fruit.mp4"},{"title":"A Fun in the Water\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Fun%20in%20the%20Water.mp4"},{"title":"A Getting Dressed\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Getting%20Dressed.mp4"},{"title":"A Go Fly a Kite\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Go%20Fly%20a%20Kite.mp4"},{"title":"A Going Places\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Going%20Places.mp4"},{"title":"A Hamster Home\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hamster%20Home.mp4"},{"title":"A He Runs\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20He%20Runs.mp4"},{"title":"A Hello, Butterfly\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hello,%20Butterfly.mp4"},{"title":"A Hot and Cold\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Hot%20and%20Cold.mp4"},{"title":"A I Can Skate\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Can%20Skate.mp4"},{"title":"A I Can\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Can.mp4"},{"title":"A I Draw a Bunny\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Draw%20a%20Bunny.mp4"},{"title":"A I Love Flowers\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Love%20Flowers.mp4"},{"title":"A i love pirates\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20i%20love%20pirates.mp4"},{"title":"A I Save Money\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Save%20Money.mp4"},{"title":"A I See my Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20See%20my%20Colors.mp4"},{"title":"A I Set the Table\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20I%20Set%20the%20Table.mp4"},{"title":"A In and Out\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20In%20and%20Out.mp4"},{"title":"A Maria  Counts Pumpkins\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Maria%20%20Counts%20Pumpkins.mp4"},{"title":"A Maria Goes to School\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Maria%20Goes%20to%20School.mp4"},{"title":"A Mom and I\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Mom%20and%20I.mp4"},{"title":"A Muscles\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Muscles.mp4"},{"title":"A My Body\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Body.mp4"},{"title":"A My Dog\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Dog.mp4"},{"title":"A My Easter Eggs\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Easter%20Eggs.mp4"},{"title":"A My Face\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Face.mp4"},{"title":"A My Hair\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Hair.mp4"},{"title":"A My House\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20House.mp4"},{"title":"A My Little Brother\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Little%20Brother.mp4"},{"title":"A My Room\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20My%20Room.mp4"},{"title":"A Nice, Not Nice\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Nice,%20Not%20Nice.mp4"},{"title":"A Now We Bake!\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Now%20We%20Bake!.mp4"},{"title":"A Oh, Raccoon\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Oh,%20Raccoon.mp4"},{"title":"A Opposites\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Opposites.mp4"},{"title":"A Pond Animals\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Pond%20Animals.mp4"},{"title":"A Rabbits\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Rabbits.mp4"},{"title":"A Safe Not Safe\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Safe%20Not%20Safe.mp4"},{"title":"A Shapes Nature\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Shapes%20Nature.mp4"},{"title":"A Snake Colors\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Snake%20Colors.mp4"},{"title":"A Spring Weather\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Spring%20Weather.mp4"},{"title":"A Sundae Time\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Sundae%20Time.mp4"},{"title":"A The Big Cat\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Big%20Cat.mp4"},{"title":"A The Forest\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Forest.mp4"},{"title":"A The Mall\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Mall.mp4"},{"title":"A The Parade\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Parade.mp4"},{"title":"A The Rainstorm\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20The%20Rainstorm.mp4"},{"title":"A These Shoes\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20These%20Shoes.mp4"},{"title":"A This Is My Bear\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Is%20My%20Bear.mp4"},{"title":"A This Is My Halloween\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Is%20My%20Halloween.mp4"},{"title":"A This Smells!\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20This%20Smells!.mp4"},{"title":"A Up and Down\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Up%20and%20Down.mp4"},{"title":"A We Can Make Sounds\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20We%20Can%20Make%20Sounds.mp4"},{"title":"A What I Like\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20I%20Like.mp4"},{"title":"A What Lives Here\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20Lives%20Here.mp4"},{"title":"A What Makes Me Happy\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20What%20Makes%20Me%20Happy.mp4"},{"title":"A Who Has Is\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20Who%20Has%20Is.mp4"},{"title":"A You Can Dance\r","path":"https:\/\/demo.chiaseacc.us\/razkids\/RAZ%20A\/Level%20A\/A%20You%20Can%20Dance.mp4"}];
+
+    if (videoElement) {
+        videoElement.addEventListener('ended', () => {
+            autoPlayNextVideo();
+        });
+    }
+
+    function autoPlayNextVideo() {
+        const currentIndex = parseInt(document.querySelector('select[name="index"]').value);
+        const nextIndex = (currentIndex + 1) % 68;
+
+        // Cập nhật URL video mới và chơi video
+        const nextVideoUrl = videoOptions[nextIndex].path;
+        playCustomVideoByUrl(nextVideoUrl);
+
+        // Cập nhật giá trị index trong dropdown để đồng bộ với video mới
+        document.querySelector('select[name="index"]').value = nextIndex;
+    }
+
+    // Thêm sự kiện khi thay đổi video được chọn
+    function onVideoChange(selectElement) {
+        const playlistIndex = document.querySelector('select[name="playlist"]').value;
+        const videoIndex = selectElement.value;
+        const videoUrl = videoOptions[videoIndex].path;
+        playCustomVideoByUrl(videoUrl);
+    }
+
+    function playCustomVideoByUrl(videoUrl) {
+        const videoElement = document.querySelector('#videoPlayer');
+        videoElement.src = videoUrl;
+        videoElement.play();
+    }
+
+        // Thêm sự kiện khi nút "Replay" được nhấn để lặp lại video
+        const replayButton = document.querySelector('#replayButton');
+        if (replayButton) {
+            replayButton.addEventListener('click', () => {
+                replayVideo();
+            });
+        }
+
+        // Hàm để lặp lại video hiện tại
+        function replayVideo() {
+            const videoElement = document.querySelector('#videoPlayer');
+            if (videoElement) {
+                videoElement.currentTime = 0; // Đặt thời gian video về 0 để lặp lại từ đầu
+                videoElement.play();
+            }
+        }
+    </script>
+              <!-- End Table with stripped rows -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span><a href="https://www.facebook.com/groups/1341950386450087">Nhóm Công Nghệ 4.0 </a></span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Code by <a href="https://www.facebook.com/profile.php?id=61551473747491">Bùi Mạnh Hưng.</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

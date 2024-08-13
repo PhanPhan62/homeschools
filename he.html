@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from homeschools.id.vn/home/he.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Homeschools Play Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f3f3;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .home-link {
+      text-decoration: none;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .user-greeting {
+      margin-bottom: 20px;
+    }
+
+    .playlist-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .playlist-menu select {
+      padding: 5px;
+    }
+
+    .video-container {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      /* 16:9 aspect ratio */
+    }
+
+    video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Chỉnh font chữ cho phần menu */
+    .playlist-menu select {
+      padding: 5px;
+      font-size: 16px;
+      /* Thay đổi kích thước font chữ tại đây */
+    }
+
+    /* Chỉnh font chữ cho danh sách video */
+    .playlist-menu select option {
+      font-size: 14px;
+      /* Thay đổi kích thước font chữ tại đây */
+    }
+  </style>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com/" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block"> HS Play Online </span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+        </li><!-- End Search Icon-->
+
+
+
+        <li class="nav-item dropdown">
+
+          <!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/Play-online.png" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+
+
+
+      </ul><!-- End Profile Dropdown Items -->
+      </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li>
+
+      <!-- End Dashboard Nav -->
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Acellus</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="acellusba45.html?playlist=0">
+              <i class="bi bi-circle"></i><span>Acellus-GK</span>
+            </a>
+          </li>
+          <li>
+            <a href="acellus03d3.html?playlist=1">
+              <i class="bi bi-circle"></i><span>Acellus-G1</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="acellus0961.html?playlist=2">
+              <i class="bi bi-circle"></i><span>Acellus-G2</span>
+            </a>
+          </li>
+          <li>
+            <a href="acellusaae0.html?playlist=3">
+              <i class="bi bi-circle"></i><span>Acellus-G3</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="acellus4650.html?playlist=4">
+              <i class="bi bi-circle"></i><span>Acellus-G4</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="acellus6f23.html?playlist=5">
+              <i class="bi bi-circle"></i><span>Acellus-G5</span>
+            </a>
+          </li>
+
+        </ul>
+      </li><!-- End Forms Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://fed.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>FED</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://kle.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>KLE</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://muzzy.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>Muzzy</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pbs.html">
+          <i class="bi bi-grid"></i>
+          <span>PBS KIDS</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="dw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Drawing</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="cw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Cooking</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="chess.html">
+          <i class="bi bi-grid"></i>
+          <span>Chess</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="as.html">
+          <i class="bi bi-grid"></i>
+          <span>It's AumSum Time</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="al.html">
+          <i class="bi bi-grid"></i>
+          <span>Alphablocks</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="num.html">
+          <i class="bi bi-grid"></i>
+          <span>Numberblocks</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pep.html">
+          <i class="bi bi-grid"></i>
+          <span>Peppa Pig</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="phim.html">
+          <i class="bi bi-grid"></i>
+          <span>Film - Online</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="ha.html">
+          <i class="bi bi-grid"></i>
+          <span>Hoffman Academy</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="he.html">
+          <i class="bi bi-grid"></i>
+          <span>Heinemann</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="gogo.html">
+          <i class="bi bi-grid"></i>
+          <span>GoGo English</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="eng.html">
+          <i class="bi bi-grid"></i>
+          <span>English Singsing</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="raz.html">
+          <i class="bi bi-grid"></i>
+          <span>Razkids </span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="ungdung.html">
+          <i class="bi bi-grid"></i>
+          <span>Ứng Dụng </span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="hotrosudung.html">
+          <i class="bi bi-grid"></i>
+          <span>Support</span>
+        </a>
+      </li>
+      </li><!-- End Icons Nav -->
+      </li><!-- End Components Nav -->
+    </ul>
+    </li><!-- End Components Nav -->
+
+
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+</body>
+
+
+<!-- Mirrored from homeschools.id.vn/home/he.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+
+</html>
+<main id="main" class="main">
+
+  <center>
+    <div class="pagetitle">
+      <h3>Heinemann Online</h3>
+      <nav>
+      </nav>
+    </div>
+  </center>
+  <!-- End Page Title -->
+
+  <!-- Table with stripped rows -->
+  <div class="container">
+
+    <div class="video-container">
+      <video id="videoPlayer" controls autoplay="false">
+        <source src="#" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ trình phát video.
+      </video>
+
+    </div>
+    <div class="playlist-menu">
+      <select name="playlist" onchange="onPlaylistChange(this)">
+        <option value="0" selected>Heinemann_GK</option>
+        <option value="1">Heinemann_G1</option>
+      </select>
+
+      <select name='index' onchange="onVideoChange(this)">
+        <option value="0" selected>Chọn Video phía dưới.</option>
+        <option value="1">1 At The Market</option>
+        <option value="2">2 Rex</option>
+        <option value="3">3 Funny Things</option>
+        <option value="4">4 The Baby Animals</option>
+        <option value="5">5 Over The River</option>
+        <option value="6">6 My Big Bear</option>
+        <option value="7">7 Making Soup</option>
+        <option value="8">8 My Family</option>
+        <option value="9">9 Mouse</option>
+        <option value="10">10 Mop</option>
+        <option value="11">11 Mom</option>
+        <option value="12">12 Dad</option>
+        <option value="13">13 At The Zoo</option>
+        <option value="14">14 On The Way To School</option>
+        <option value="15">15 The Park</option>
+        <option value="16">16 Tom</option>
+        <option value="17">17 I Can Read</option>
+        <option value="18">18 Baby</option>
+        <option value="19">19 Playing Dress Up</option>
+        <option value="20">20 Little Cub</option>
+        <option value="21">21 My Room</option>
+        <option value="22">22 The Baby</option>
+        <option value="23">23 Going Sledding</option>
+        <option value="24">24 Making A Snowman</option>
+        <option value="25">25 My Lunch</option>
+        <option value="26">26 Toys</option>
+        <option value="27">27 Little Things</option>
+        <option value="28">28 Packing My Bag</option>
+        <option value="29">29 Setting The Table</option>
+        <option value="30">30 The Flower</option>
+        <option value="31">31 Playing Together</option>
+        <option value="32">32 Polly</option>
+        <option value="33">33 At The Farm</option>
+        <option value="34">34 The Sidewalk</option>
+        <option value="35">35 The Hat</option>
+        <option value="36">36 The Pet Store</option>
+        <option value="37">37 Going On A Vacation</option>
+        <option value="38">38 Wheels</option>
+        <option value="39">39 Hiding</option>
+        <option value="40">40 The Show</option>
+        <option value="41">41 Hop Hop Hop</option>
+        <option value="42">42 The Puppet Show</option>
+        <option value="43">43 Rain</option>
+        <option value="44">44 My Baby Sister</option>
+        <option value="45">45 So Big</option>
+        <option value="46">46 The Parade</option>
+        <option value="47">47 Fun At School</option>
+        <option value="48">48 At School</option>
+        <option value="49">49 My Big Brother</option>
+        <option value="50">50 Getting Ready</option>
+        <option value="51">51 Play And Ride</option>
+        <option value="52">52 My Bear</option>
+        <option value="53">53 What Is Very Long</option>
+        <option value="54">54 The Play</option>
+        <option value="55">55 Our Pets</option>
+        <option value="56">56 Making A Pizza</option>
+        <option value="57">57 A Visit From Aunt Bee</option>
+        <option value="58">58 Birds</option>
+        <option value="59">59 Flap Flap Fly</option>
+        <option value="60">60 At The Pond</option>
+        <option value="61">61 Going On A Train Ride</option>
+        <option value="62">62 Spots</option>
+        <option value="63">63 Playing With Blocks</option>
+        <option value="64">64 Drawing</option>
+        <option value="65">65 Helping</option>
+        <option value="66">66 Baking</option>
+        <option value="67">67 Out To Play</option>
+        <option value="68">68 Painting</option>
+        <option value="69">69 Animals That Go Fast</option>
+        <option value="70">70 Things That Go Fast</option>
+      </select>
+    </div>
+    <div class="container">
+      <form method="post" action="#">
+        <input type="text" name="search" placeholder="Tìm kiếm tên video" style="width: 250px;">
+        <button type="submit">Tìm kiếm</button>
+      </form>
+
+    </div>
+  </div>
+
+  <script>
+    // Thêm sự kiện khi trang được tải để tự động phát video ban đầu
+    window.addEventListener('DOMContentLoaded', function () {
+      playCustomVideo();
+    });
+
+    function onPlaylistChange(selectElement) {
+      const playlistIndex = selectElement.value;
+      window.location.href = `?playlist=${playlistIndex}`;
+    }
+
+    function onVideoChange(selectElement) {
+      const playlistIndex = document.querySelector('select[name="playlist"]').value;
+      const videoIndex = selectElement.value;
+      window.location.href = `?playlist=${playlistIndex}&index=${videoIndex}`;
+    }
+
+    function playCustomVideo() {
+      const videoUrl = "";
+      const videoElement = document.querySelector('#videoPlayer');
+
+      // Thiết lập src cho videoElement để tự động phát video
+      videoElement.src = videoUrl;
+      videoElement.play();
+    }
+
+    function playCustomVideo() {
+      const videoOptions = [{ "title": "Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi." }, { "title": "1 At The Market", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/1%20At%20The%20Market.mp4" }, { "title": "2 Rex", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/2%20Rex.mp4" }, { "title": "3 Funny Things", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/3%20Funny%20Things.mp4" }, { "title": "4 The Baby Animals", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/4%20The%20Baby%20Animals.mp4" }, { "title": "5 Over The River", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/5%20Over%20The%20River.mp4" }, { "title": "6 My Big Bear", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/6%20My%20Big%20Bear.mp4" }, { "title": "7 Making Soup", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/7%20Making%20Soup.mp4" }, { "title": "8 My Family", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/8%20My%20Family.mp4" }, { "title": "9 Mouse", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/9%20Mouse.mp4" }, { "title": "10 Mop", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/10%20Mop.mp4" }, { "title": "11 Mom", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/11%20Mom.mp4" }, { "title": "12 Dad", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/12%20Dad.mp4" }, { "title": "13 At The Zoo", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/13%20At%20The%20Zoo.mp4" }, { "title": "14 On The Way To School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/14%20On%20The%20Way%20To%20School.mp4" }, { "title": "15 The Park", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/15%20The%20Park.mp4" }, { "title": "16 Tom", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/16%20Tom.mp4" }, { "title": "17 I Can Read", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/17%20I%20Can%20Read.mp4" }, { "title": "18 Baby", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/18%20Baby.mp4" }, { "title": "19 Playing Dress Up", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/19%20Playing%20Dress%20Up.mp4" }, { "title": "20 Little Cub", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/20%20Little%20Cub.mp4" }, { "title": "21 My Room", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/21%20My%20Room.mp4" }, { "title": "22 The Baby", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/22%20The%20Baby.mp4" }, { "title": "23 Going Sledding", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/23%20Going%20Sledding.mp4" }, { "title": "24 Making A Snowman", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/24%20Making%20A%20Snowman.mp4" }, { "title": "25 My Lunch", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/25%20My%20Lunch.mp4" }, { "title": "26 Toys", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/26%20Toys.mp4" }, { "title": "27 Little Things", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/27%20Little%20Things.mp4" }, { "title": "28 Packing My Bag", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/28%20Packing%20My%20Bag.mp4" }, { "title": "29 Setting The Table", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/29%20Setting%20The%20Table.mp4" }, { "title": "30 The Flower", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/30%20The%20Flower.mp4" }, { "title": "31 Playing Together", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/31%20Playing%20Together.mp4" }, { "title": "32 Polly", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/32%20Polly.mp4" }, { "title": "33 At The Farm", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/33%20At%20The%20Farm.mp4" }, { "title": "34 The Sidewalk", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/34%20The%20Sidewalk.mp4" }, { "title": "35 The Hat", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/35%20The%20Hat.mp4" }, { "title": "36 The Pet Store", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/36%20The%20Pet%20Store.mp4" }, { "title": "37 Going On A Vacation", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/37%20Going%20On%20A%20Vacation.mp4" }, { "title": "38 Wheels", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/38%20Wheels.mp4" }, { "title": "39 Hiding", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/39%20Hiding.mp4" }, { "title": "40 The Show", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/40%20The%20Show.mp4" }, { "title": "41 Hop Hop Hop", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/41%20Hop%20Hop%20Hop.mp4" }, { "title": "42 The Puppet Show", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/42%20The%20Puppet%20Show.mp4" }, { "title": "43 Rain", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/43%20Rain.mp4" }, { "title": "44 My Baby Sister", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/44%20My%20Baby%20Sister.mp4" }, { "title": "45 So Big", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/45%20So%20Big.mp4" }, { "title": "46 The Parade", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/46%20The%20Parade.mp4" }, { "title": "47 Fun At School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/47%20Fun%20At%20School.mp4" }, { "title": "48 At School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/48%20At%20School.mp4" }, { "title": "49 My Big Brother", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/49%20My%20Big%20Brother.mp4" }, { "title": "50 Getting Ready", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/50%20Getting%20Ready.mp4" }, { "title": "51 Play And Ride", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/51%20Play%20And%20Ride.mp4" }, { "title": "52 My Bear", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/52%20My%20Bear.mp4" }, { "title": "53 What Is Very Long", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/53%20What%20Is%20Very%20Long.mp4" }, { "title": "54 The Play", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/54%20The%20Play.mp4" }, { "title": "55 Our Pets", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/55%20Our%20Pets.mp4" }, { "title": "56 Making A Pizza", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/56%20Making%20A%20Pizza.mp4" }, { "title": "57 A Visit From Aunt Bee", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/57%20A%20Visit%20From%20Aunt%20Bee.mp4" }, { "title": "58 Birds", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/58%20Birds.mp4" }, { "title": "59 Flap Flap Fly", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/59%20Flap%20Flap%20Fly.mp4" }, { "title": "60 At The Pond", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/60%20At%20The%20Pond.mp4" }, { "title": "61 Going On A Train Ride", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/61%20Going%20On%20A%20Train%20Ride.mp4" }, { "title": "62 Spots", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/62%20Spots.mp4" }, { "title": "63 Playing With Blocks", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/63%20Playing%20With%20Blocks.mp4" }, { "title": "64 Drawing", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/64%20Drawing.mp4" }, { "title": "65 Helping", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/65%20Helping.mp4" }, { "title": "66 Baking", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/66%20Baking.mp4" }, { "title": "67 Out To Play", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/67%20Out%20To%20Play.mp4" }, { "title": "68 Painting", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/68%20Painting.mp4" }, { "title": "69 Animals That Go Fast", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/69%20Animals%20That%20Go%20Fast.mp4" }, { "title": "70 Things That Go Fast", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/70%20Things%20That%20Go%20Fast.mp4" }];
+      const videoElement = document.querySelector('#videoPlayer');
+      const initialVideoUrl = videoOptions[0].path; // Lấy URL của video đầu tiên
+
+      // Thiết lập src cho videoElement để tự động phát video đầu tiên
+      videoElement.src = initialVideoUrl;
+      videoElement.play();
+    }
+
+    // Thêm sự kiện khi thay đổi video được chọn
+    function onVideoChange(selectElement) {
+      const playlistIndex = document.querySelector('select[name="playlist"]').value;
+      const videoIndex = selectElement.value;
+      const videoOptions = [{ "title": "Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi." }, { "title": "1 At The Market", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/1%20At%20The%20Market.mp4" }, { "title": "2 Rex", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/2%20Rex.mp4" }, { "title": "3 Funny Things", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/3%20Funny%20Things.mp4" }, { "title": "4 The Baby Animals", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/4%20The%20Baby%20Animals.mp4" }, { "title": "5 Over The River", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/5%20Over%20The%20River.mp4" }, { "title": "6 My Big Bear", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/6%20My%20Big%20Bear.mp4" }, { "title": "7 Making Soup", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/7%20Making%20Soup.mp4" }, { "title": "8 My Family", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/8%20My%20Family.mp4" }, { "title": "9 Mouse", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/9%20Mouse.mp4" }, { "title": "10 Mop", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/10%20Mop.mp4" }, { "title": "11 Mom", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/11%20Mom.mp4" }, { "title": "12 Dad", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/12%20Dad.mp4" }, { "title": "13 At The Zoo", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/13%20At%20The%20Zoo.mp4" }, { "title": "14 On The Way To School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/14%20On%20The%20Way%20To%20School.mp4" }, { "title": "15 The Park", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/15%20The%20Park.mp4" }, { "title": "16 Tom", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/16%20Tom.mp4" }, { "title": "17 I Can Read", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/17%20I%20Can%20Read.mp4" }, { "title": "18 Baby", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/18%20Baby.mp4" }, { "title": "19 Playing Dress Up", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/19%20Playing%20Dress%20Up.mp4" }, { "title": "20 Little Cub", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/20%20Little%20Cub.mp4" }, { "title": "21 My Room", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/21%20My%20Room.mp4" }, { "title": "22 The Baby", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/22%20The%20Baby.mp4" }, { "title": "23 Going Sledding", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/23%20Going%20Sledding.mp4" }, { "title": "24 Making A Snowman", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/24%20Making%20A%20Snowman.mp4" }, { "title": "25 My Lunch", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/25%20My%20Lunch.mp4" }, { "title": "26 Toys", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/26%20Toys.mp4" }, { "title": "27 Little Things", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/27%20Little%20Things.mp4" }, { "title": "28 Packing My Bag", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/28%20Packing%20My%20Bag.mp4" }, { "title": "29 Setting The Table", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/29%20Setting%20The%20Table.mp4" }, { "title": "30 The Flower", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/30%20The%20Flower.mp4" }, { "title": "31 Playing Together", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/31%20Playing%20Together.mp4" }, { "title": "32 Polly", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/32%20Polly.mp4" }, { "title": "33 At The Farm", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/33%20At%20The%20Farm.mp4" }, { "title": "34 The Sidewalk", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/34%20The%20Sidewalk.mp4" }, { "title": "35 The Hat", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/35%20The%20Hat.mp4" }, { "title": "36 The Pet Store", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/36%20The%20Pet%20Store.mp4" }, { "title": "37 Going On A Vacation", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/37%20Going%20On%20A%20Vacation.mp4" }, { "title": "38 Wheels", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/38%20Wheels.mp4" }, { "title": "39 Hiding", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/39%20Hiding.mp4" }, { "title": "40 The Show", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/40%20The%20Show.mp4" }, { "title": "41 Hop Hop Hop", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/41%20Hop%20Hop%20Hop.mp4" }, { "title": "42 The Puppet Show", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/42%20The%20Puppet%20Show.mp4" }, { "title": "43 Rain", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/43%20Rain.mp4" }, { "title": "44 My Baby Sister", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/44%20My%20Baby%20Sister.mp4" }, { "title": "45 So Big", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/45%20So%20Big.mp4" }, { "title": "46 The Parade", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/46%20The%20Parade.mp4" }, { "title": "47 Fun At School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/47%20Fun%20At%20School.mp4" }, { "title": "48 At School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/48%20At%20School.mp4" }, { "title": "49 My Big Brother", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/49%20My%20Big%20Brother.mp4" }, { "title": "50 Getting Ready", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/50%20Getting%20Ready.mp4" }, { "title": "51 Play And Ride", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/51%20Play%20And%20Ride.mp4" }, { "title": "52 My Bear", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/52%20My%20Bear.mp4" }, { "title": "53 What Is Very Long", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/53%20What%20Is%20Very%20Long.mp4" }, { "title": "54 The Play", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/54%20The%20Play.mp4" }, { "title": "55 Our Pets", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/55%20Our%20Pets.mp4" }, { "title": "56 Making A Pizza", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/56%20Making%20A%20Pizza.mp4" }, { "title": "57 A Visit From Aunt Bee", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/57%20A%20Visit%20From%20Aunt%20Bee.mp4" }, { "title": "58 Birds", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/58%20Birds.mp4" }, { "title": "59 Flap Flap Fly", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/59%20Flap%20Flap%20Fly.mp4" }, { "title": "60 At The Pond", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/60%20At%20The%20Pond.mp4" }, { "title": "61 Going On A Train Ride", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/61%20Going%20On%20A%20Train%20Ride.mp4" }, { "title": "62 Spots", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/62%20Spots.mp4" }, { "title": "63 Playing With Blocks", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/63%20Playing%20With%20Blocks.mp4" }, { "title": "64 Drawing", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/64%20Drawing.mp4" }, { "title": "65 Helping", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/65%20Helping.mp4" }, { "title": "66 Baking", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/66%20Baking.mp4" }, { "title": "67 Out To Play", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/67%20Out%20To%20Play.mp4" }, { "title": "68 Painting", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/68%20Painting.mp4" }, { "title": "69 Animals That Go Fast", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/69%20Animals%20That%20Go%20Fast.mp4" }, { "title": "70 Things That Go Fast", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/70%20Things%20That%20Go%20Fast.mp4" }];
+      const videoUrl = videoOptions[videoIndex].path;
+      playCustomVideoByUrl(videoUrl);
+    }
+
+    function playCustomVideoByUrl(videoUrl) {
+      const videoElement = document.querySelector('#videoPlayer');
+      videoElement.src = videoUrl;
+      videoElement.play();
+    }
+
+
+    // Hàm để tự động chuyển đến video tiếp theo
+    function autoPlayNextVideo() {
+      const currentIndex = parseInt(document.querySelector('select[name="index"]').value);
+      const nextIndex = (currentIndex + 1) % 71;
+      window.location.href = `?playlist=0&index=${nextIndex}`;
+    }
+
+    // Thêm sự kiện khi video kết thúc để tự động chuyển đến video tiếp theo
+    const videoElement = document.querySelector('#videoPlayer');
+    const playlistIndex = 0;
+    const videoOptions = [{ "title": "Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi." }, { "title": "1 At The Market", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/1%20At%20The%20Market.mp4" }, { "title": "2 Rex", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/2%20Rex.mp4" }, { "title": "3 Funny Things", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/3%20Funny%20Things.mp4" }, { "title": "4 The Baby Animals", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/4%20The%20Baby%20Animals.mp4" }, { "title": "5 Over The River", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/5%20Over%20The%20River.mp4" }, { "title": "6 My Big Bear", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/6%20My%20Big%20Bear.mp4" }, { "title": "7 Making Soup", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/7%20Making%20Soup.mp4" }, { "title": "8 My Family", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/8%20My%20Family.mp4" }, { "title": "9 Mouse", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/9%20Mouse.mp4" }, { "title": "10 Mop", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/10%20Mop.mp4" }, { "title": "11 Mom", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/11%20Mom.mp4" }, { "title": "12 Dad", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/12%20Dad.mp4" }, { "title": "13 At The Zoo", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/13%20At%20The%20Zoo.mp4" }, { "title": "14 On The Way To School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/14%20On%20The%20Way%20To%20School.mp4" }, { "title": "15 The Park", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/15%20The%20Park.mp4" }, { "title": "16 Tom", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/16%20Tom.mp4" }, { "title": "17 I Can Read", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/17%20I%20Can%20Read.mp4" }, { "title": "18 Baby", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/18%20Baby.mp4" }, { "title": "19 Playing Dress Up", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/19%20Playing%20Dress%20Up.mp4" }, { "title": "20 Little Cub", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/20%20Little%20Cub.mp4" }, { "title": "21 My Room", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/21%20My%20Room.mp4" }, { "title": "22 The Baby", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/22%20The%20Baby.mp4" }, { "title": "23 Going Sledding", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/23%20Going%20Sledding.mp4" }, { "title": "24 Making A Snowman", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/24%20Making%20A%20Snowman.mp4" }, { "title": "25 My Lunch", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/25%20My%20Lunch.mp4" }, { "title": "26 Toys", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/26%20Toys.mp4" }, { "title": "27 Little Things", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/27%20Little%20Things.mp4" }, { "title": "28 Packing My Bag", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/28%20Packing%20My%20Bag.mp4" }, { "title": "29 Setting The Table", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/29%20Setting%20The%20Table.mp4" }, { "title": "30 The Flower", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/30%20The%20Flower.mp4" }, { "title": "31 Playing Together", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/31%20Playing%20Together.mp4" }, { "title": "32 Polly", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/32%20Polly.mp4" }, { "title": "33 At The Farm", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/33%20At%20The%20Farm.mp4" }, { "title": "34 The Sidewalk", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/34%20The%20Sidewalk.mp4" }, { "title": "35 The Hat", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/35%20The%20Hat.mp4" }, { "title": "36 The Pet Store", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/36%20The%20Pet%20Store.mp4" }, { "title": "37 Going On A Vacation", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/37%20Going%20On%20A%20Vacation.mp4" }, { "title": "38 Wheels", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/38%20Wheels.mp4" }, { "title": "39 Hiding", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/39%20Hiding.mp4" }, { "title": "40 The Show", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/40%20The%20Show.mp4" }, { "title": "41 Hop Hop Hop", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/41%20Hop%20Hop%20Hop.mp4" }, { "title": "42 The Puppet Show", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/42%20The%20Puppet%20Show.mp4" }, { "title": "43 Rain", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/43%20Rain.mp4" }, { "title": "44 My Baby Sister", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/44%20My%20Baby%20Sister.mp4" }, { "title": "45 So Big", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/45%20So%20Big.mp4" }, { "title": "46 The Parade", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/46%20The%20Parade.mp4" }, { "title": "47 Fun At School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/47%20Fun%20At%20School.mp4" }, { "title": "48 At School", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/48%20At%20School.mp4" }, { "title": "49 My Big Brother", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/49%20My%20Big%20Brother.mp4" }, { "title": "50 Getting Ready", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/50%20Getting%20Ready.mp4" }, { "title": "51 Play And Ride", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/51%20Play%20And%20Ride.mp4" }, { "title": "52 My Bear", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/52%20My%20Bear.mp4" }, { "title": "53 What Is Very Long", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/53%20What%20Is%20Very%20Long.mp4" }, { "title": "54 The Play", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/54%20The%20Play.mp4" }, { "title": "55 Our Pets", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/55%20Our%20Pets.mp4" }, { "title": "56 Making A Pizza", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/56%20Making%20A%20Pizza.mp4" }, { "title": "57 A Visit From Aunt Bee", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/57%20A%20Visit%20From%20Aunt%20Bee.mp4" }, { "title": "58 Birds", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/58%20Birds.mp4" }, { "title": "59 Flap Flap Fly", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/59%20Flap%20Flap%20Fly.mp4" }, { "title": "60 At The Pond", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/60%20At%20The%20Pond.mp4" }, { "title": "61 Going On A Train Ride", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/61%20Going%20On%20A%20Train%20Ride.mp4" }, { "title": "62 Spots", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/62%20Spots.mp4" }, { "title": "63 Playing With Blocks", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/63%20Playing%20With%20Blocks.mp4" }, { "title": "64 Drawing", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/64%20Drawing.mp4" }, { "title": "65 Helping", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/65%20Helping.mp4" }, { "title": "66 Baking", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/66%20Baking.mp4" }, { "title": "67 Out To Play", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/67%20Out%20To%20Play.mp4" }, { "title": "68 Painting", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/68%20Painting.mp4" }, { "title": "69 Animals That Go Fast", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/69%20Animals%20That%20Go%20Fast.mp4" }, { "title": "70 Things That Go Fast", "path": "https:\/\/dt1.homeschools.id.vn\/Heinemann%20Grade%20K-1-2\/Grade%20K\/Heinemann%20MP4%20GK\/70%20Things%20That%20Go%20Fast.mp4" }];
+
+    if (videoElement) {
+      videoElement.addEventListener('ended', () => {
+        autoPlayNextVideo();
+      });
+    }
+
+    function autoPlayNextVideo() {
+      const currentIndex = parseInt(document.querySelector('select[name="index"]').value);
+      const nextIndex = (currentIndex + 1) % 71;
+
+      // Cập nhật URL video mới và chơi video
+      const nextVideoUrl = videoOptions[nextIndex].path;
+      playCustomVideoByUrl(nextVideoUrl);
+
+      // Cập nhật giá trị index trong dropdown để đồng bộ với video mới
+      document.querySelector('select[name="index"]').value = nextIndex;
+    }
+
+    // Thêm sự kiện khi thay đổi video được chọn
+    function onVideoChange(selectElement) {
+      const playlistIndex = document.querySelector('select[name="playlist"]').value;
+      const videoIndex = selectElement.value;
+      const videoUrl = videoOptions[videoIndex].path;
+      playCustomVideoByUrl(videoUrl);
+    }
+
+    function playCustomVideoByUrl(videoUrl) {
+      const videoElement = document.querySelector('#videoPlayer');
+      videoElement.src = videoUrl;
+      videoElement.play();
+    }
+
+    // Thêm sự kiện khi nút "Replay" được nhấn để lặp lại video
+    const replayButton = document.querySelector('#replayButton');
+    if (replayButton) {
+      replayButton.addEventListener('click', () => {
+        replayVideo();
+      });
+    }
+
+    // Hàm để lặp lại video hiện tại
+    function replayVideo() {
+      const videoElement = document.querySelector('#videoPlayer');
+      if (videoElement) {
+        videoElement.currentTime = 0; // Đặt thời gian video về 0 để lặp lại từ đầu
+        videoElement.play();
+      }
+    }
+  </script>
+  <!-- End Table with stripped rows -->
+
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </section>
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+  <div class="copyright">
+    &copy; Copyright <strong><span><a href="https://www.facebook.com/groups/1341950386450087">Nhóm Công Nghệ 4.0
+        </a></span></strong>. All Rights Reserved
+  </div>
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+    Code by <a href="https://www.facebook.com/profile.php?id=61551473747491">Bùi Mạnh Hưng.</a>
+  </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/chart.js/chart.umd.js"></script>
+<script src="assets/vendor/echarts/echarts.min.js"></script>
+<script src="assets/vendor/quill/quill.min.js"></script>
+<script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+<script src="assets/vendor/tinymce/tinymce.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

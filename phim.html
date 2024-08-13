@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from homeschools.id.vn/home/phim.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Homeschools Play Online</title>
+  <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+.home-link {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .user-greeting {
+            margin-bottom: 20px;
+        }
+
+        .playlist-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .playlist-menu select {
+            padding: 5px;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        }
+
+        video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+				/* Chỉnh font chữ cho phần menu */
+    .playlist-menu select {
+        padding: 5px;
+        font-size: 16px; /* Thay đổi kích thước font chữ tại đây */
+    }
+
+    /* Chỉnh font chữ cho danh sách video */
+    .playlist-menu select option {
+        font-size: 14px; /* Thay đổi kích thước font chữ tại đây */
+    }
+    </style>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com/" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">  HS Play Online </span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+        </li><!-- End Search Icon-->
+
+       
+
+        <li class="nav-item dropdown">
+
+          <!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+                       <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/Play-online.png" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        
+            
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li>
+	  	  
+	  <!-- End Dashboard Nav -->
+
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Acellus</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="acellusba45.html?playlist=0">
+              <i class="bi bi-circle"></i><span>Acellus-GK</span>
+            </a>
+          </li>
+		  <li>
+            <a href="acellus03d3.html?playlist=1">
+              <i class="bi bi-circle"></i><span>Acellus-G1</span>
+            </a>
+          </li>
+		  
+		  <li>
+            <a href="acellus0961.html?playlist=2">
+              <i class="bi bi-circle"></i><span>Acellus-G2</span>
+            </a>
+          </li>
+		  <li>
+            <a href="acellusaae0.html?playlist=3">
+              <i class="bi bi-circle"></i><span>Acellus-G3</span>
+            </a>
+          </li>
+		  
+		   <li>
+            <a href="acellus4650.html?playlist=4">
+              <i class="bi bi-circle"></i><span>Acellus-G4</span>
+            </a>
+          </li>
+		  
+		  <li>
+            <a href="acellus6f23.html?playlist=5">
+              <i class="bi bi-circle"></i><span>Acellus-G5</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Forms Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://fed.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>FED</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="https://kle.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>KLE</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="https://muzzy.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>Muzzy</span>
+        </a>
+      </li>
+	  	  	   <li class="nav-item">
+        <a class="nav-link collapsed" href="pbs.html">
+          <i class="bi bi-grid"></i>
+          <span>PBS KIDS</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="dw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Drawing</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="cw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Cooking</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="chess.html">
+          <i class="bi bi-grid"></i>
+          <span>Chess</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="as.html">
+          <i class="bi bi-grid"></i>
+          <span>It's AumSum Time</span>
+        </a>
+      </li>
+	  	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="al.html">
+          <i class="bi bi-grid"></i>
+          <span>Alphablocks</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="num.html">
+          <i class="bi bi-grid"></i>
+          <span>Numberblocks</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="pep.html">
+          <i class="bi bi-grid"></i>
+          <span>Peppa Pig</span>
+        </a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="phim.html">
+          <i class="bi bi-grid"></i>
+          <span>Film - Online</span>
+        </a>
+      </li>
+	    	  
+<li class="nav-item">
+        <a class="nav-link collapsed" href="ha.html">
+          <i class="bi bi-grid"></i>
+          <span>Hoffman Academy</span>
+        </a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="he.html">
+          <i class="bi bi-grid"></i>
+          <span>Heinemann</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="gogo.html">
+          <i class="bi bi-grid"></i>
+          <span>GoGo English</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="eng.html">
+          <i class="bi bi-grid"></i>
+          <span>English Singsing</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="raz.html">
+          <i class="bi bi-grid"></i>
+          <span>Razkids </span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="ungdung.html">
+          <i class="bi bi-grid"></i>
+          <span>Ứng Dụng </span>
+        </a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link collapsed" href="hotrosudung.html">
+          <i class="bi bi-grid"></i>
+          <span>Support</span>
+        </a>
+      </li>
+      </li><!-- End Icons Nav -->
+      </li><!-- End Components Nav -->
+                 </ul>
+      </li><!-- End Components Nav -->
+
+         
+
+      
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+  </body>
+
+
+<!-- Mirrored from homeschools.id.vn/home/phim.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+</html>  <main id="main" class="main">
+
+    <center>
+        <div class="pagetitle">
+            <h3>Phim Online</h3>
+            <nav>
+            </nav>
+        </div>
+    </center>
+    <!-- End Page Title -->
+
+    <!-- Table with stripped rows -->
+    <div class="container">
+        
+                    <div class="video-container">
+                <video id="videoPlayer" controls autoplay="false">
+                    <source src="#" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ trình phát video.
+                </video>
+                
+            </div>
+            <div class="playlist-menu">
+                <select name="playlist" onchange="onPlaylistChange(this)">
+                                            <option value="0" selected>phim</option>
+                                            <option value="1" >disney</option>
+                                            <option value="2" >Phim 2023</option>
+                                            <option value="3" >discovery</option>
+                                            <option value="4" >Phim Giáng Sinh</option>
+                                            <option value="5" >Luyện nghe qua truyện cổ tích</option>
+                                            <option value="6" >Hào khí Ngàn Năm</option>
+                                            <option value="7" >Nhân Tài Đại Việt</option>
+                                            <option value="8" >Niềm Tin Cổ Tích</option>
+                                            <option value="9" >Nghìn lẻ một đêm</option>
+                                            <option value="10" >Bố Đầu Nhỏ - Con Đâu To</option>
+                                            <option value="11" >Marvels Spidey</option>
+                                            <option value="12" >PAW Patrol</option>
+                                            <option value="13" >Harry Potter</option>
+                                            <option value="14" >Horrid Henry</option>
+                                            <option value="15" >Ben-Hollys</option>
+                                            <option value="16" >Robocar Poli</option>
+                                            <option value="17" >The Magic School Bus</option>
+                                            <option value="18" >Ricky Zoom</option>
+                                            <option value="19" >.Đệ Tử Quy - China</option>
+                                            <option value="20" >,Đệ Tử Quy - Việt</option>
+                                            <option value="21" >Santiago of the Seas</option>
+                                            <option value="22" >A Real Bug-s Life</option>
+                                            <option value="23" >curiosity stream</option>
+                                            <option value="24" >Doraemon</option>
+                                            <option value="25" >The Lego Movie</option>
+                                            <option value="26" >Phim hoạt hình cũ</option>
+                                    </select>
+
+                <select name='index' onchange="onVideoChange(this)">
+                                                                    <option value="0" selected>Chọn Video phía dưới.</option>
+                                                                    <option value="1" >CARS 2(2011)</option>
+                                                                    <option value="2" >Coco (2017)</option>
+                                                                    <option value="3" >DUTOPA 2016</option>
+                                                                    <option value="4" >Encanto.2021</option>
+                                                                    <option value="5" >Frozen .2013</option>
+                                                                    <option value="6" >Home.2015</option>
+                                                                    <option value="7" >ICE AGE</option>
+                                                                    <option value="8" >Luca.2021</option>
+                                                                    <option value="9" >Monsters.University.2013</option>
+                                                                    <option value="10" >Puss.in.Boots.The.Last.Wish.2022</option>
+                                                                    <option value="11" >Ratatouille.2007</option>
+                                                                    <option value="12" >Sing (2016)</option>
+                                                                    <option value="13" >Tangled .2010</option>
+                                                                    <option value="14" >The.Lion.King.1994</option>
+                                                                    <option value="15" >The.Princess.and.the.Frog.2009</option>
+                                                                    <option value="16" >Turning.Red.2022</option>
+                                                                    <option value="17" >Winnie the Pooh</option>
+                                                                    <option value="18" >Yellow bird.2014</option>
+                                                                    <option value="19" >Paw Patrol:the Mighty Movie 2023</option>
+                                                                    <option value="20" >Migration 2023 </option>
+                                                                    <option value="21" >Home Alone-1</option>
+                                                                    <option value="22" >Home Alone-2</option>
+                                                                    <option value="23" >Home Alone-3</option>
+                                                                    <option value="24" >Home Alone-The Holiday Heist</option>
+                                                                    <option value="25" >Spies In Disguise 2019</option>
+                                                                    <option value="26" >Scooby-Doo! Abracadabra-Doo 2010</option>
+                                                                    <option value="27" >Scooby-Doo! Mask of the Blue Falcon 2012</option>
+                                                                    <option value="28" >Scooby-Doo! Wrestle Mania Mystery 2014</option>
+                                                                    <option value="29" >Scooby-Doo!,Aloha 2005</option>
+                                                                    <option value="30" >Diary Of A Wimpy Kid-2010</option>
+                                                                    <option value="31" >Diary of a Wimpy Kid- Rodrick Rules - 2011</option>
+                                                                    <option value="32" >Diary of a Wimpy Kid- Dog Days - 2012</option>
+                                                                    <option value="33" >Diary Of A Wimpy Kid The Long Haul- 2017</option>
+                                                                    <option value="34" >little miss sunshine 2006</option>
+                                                                    <option value="35" >Around the World in 80 Days</option>
+                                                                    <option value="36" >Bedtime Stories 2008</option>
+                                                                    <option value="37" >Kung Fu Panda 1</option>
+                                                                    <option value="38" >Kung Fu Panda 2</option>
+                                                                    <option value="39" >Kung Fu Panda 3</option>
+                                                                    <option value="40" >Kung Fu Panda 4</option>
+                                                                    <option value="41" >Rise of the Guardians</option>
+                                                                    <option value="42" >Tetris (2023)</option>
+                                                                    <option value="43" >Wreck-It Ralph 2- Ralph Breaks the Internet (2018)</option>
+                                                                    <option value="44" >The Velveteen Rabbit (2023)</option>
+                                                                    <option value="45" >Orion and the Dark (2024)</option>
+                                                                    <option value="46" >Snoopy Presents: Welcome Home, Franklin (2024)</option>
+                                                                    <option value="47" >Despicable Me - Minions 1 </option>
+                                                                    <option value="48" >Despicable Me - Minions 2 </option>
+                                                                    <option value="49" >Despicable Me - Minions 3</option>
+                                                                    <option value="50" >The Jungle Book 1</option>
+                                                                    <option value="51" >The Jungle Book 2</option>
+                                                                    <option value="52" >Luck (2022)</option>
+                                                                    <option value="53" >Under the Boardwalk(2023)</option>
+                                                                    <option value="54" >Harry Potter 20th Anniversary: Return to Hogwarts</option>
+                                                                    <option value="55" >Woody Woodpecker Goes to Camp (2024)</option>
+                                                                    <option value="56" >HIGH SCHOOL MUSICAL 1</option>
+                                                                    <option value="57" >HIGH SCHOOL MUSICAL 2</option>
+                                                                    <option value="58" >HIGH SCHOOL MUSICAL 3</option>
+                                                                    <option value="59" >The tale of the snail and the whale</option>
+                                                                    <option value="60" >Ron's Gone Wrong (2021)</option>
+                                                                    <option value="61" >The Garfield Movie(2024)</option>
+                                                                    <option value="62" >Descendants- The Rise of Red(2024)</option>
+                                                                    <option value="63" >Despicable Me 4(2024)</option>
+                                                                    <option value="64" >Inside Out 2(2024)</option>
+                                    </select>
+            </div>
+			 <div class="container">
+                <form method="post" action="#">
+                    <input type="text" name="search" placeholder="Tìm kiếm tên video" style="width: 250px;">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+				 
+            </div>
+            </div>
+
+    <script>
+        // Thêm sự kiện khi trang được tải để tự động phát video ban đầu
+        window.addEventListener('DOMContentLoaded', function () {
+            playCustomVideo();
+        });
+
+        function onPlaylistChange(selectElement) {
+            const playlistIndex = selectElement.value;
+            window.location.href = `?playlist=${playlistIndex}`;
+        }
+
+        function onVideoChange(selectElement) {
+            const playlistIndex = document.querySelector('select[name="playlist"]').value;
+            const videoIndex = selectElement.value;
+            window.location.href = `?playlist=${playlistIndex}&index=${videoIndex}`;
+        }
+
+        function playCustomVideo() {
+            const videoUrl = "";
+            const videoElement = document.querySelector('#videoPlayer');
+
+            // Thiết lập src cho videoElement để tự động phát video
+            videoElement.src = videoUrl;
+            videoElement.play();
+        }
+
+function playCustomVideo() {
+            const videoOptions = [{"title":"Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi.\r"},{"title":"CARS 2(2011)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/CARS%202(2011).mp4"},{"title":"Coco (2017)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Coco%20(2017).mp4"},{"title":"DUTOPA 2016\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/DUTOPA%202016.mp4"},{"title":"Encanto.2021\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Encanto.2021.mp4"},{"title":"Frozen .2013\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Frozen%20.2013.mp4"},{"title":"Home.2015\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Home.2015.mp4"},{"title":"ICE AGE\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/ICE%20AGE.mp4"},{"title":"Luca.2021\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Luca.2021.mp4"},{"title":"Monsters.University.2013\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Monsters.University.2013.mp4"},{"title":"Puss.in.Boots.The.Last.Wish.2022\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Puss.in.Boots.The.Last.Wish.2022.mp4"},{"title":"Ratatouille.2007\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Ratatouille.2007.mp4"},{"title":"Sing (2016)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Sing%20(2016).mp4"},{"title":"Tangled .2010\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Tangled%20.2010.mp4"},{"title":"The.Lion.King.1994\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/The.Lion.King.1994.mp4"},{"title":"The.Princess.and.the.Frog.2009\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/The.Princess.and.the.Frog.2009.mp4"},{"title":"Turning.Red.2022\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Turning.Red.2022.mp4"},{"title":"Winnie the Pooh\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Winnie%20the%20Pooh.mp4"},{"title":"Yellow bird.2014\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Yellowbird.2014.mp4"},{"title":"Paw Patrol:the Mighty Movie 2023\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/PAW.Patrol.The.Mighty.Movie.2023.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Migration 2023 \r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/danvitdicu.mp4"},{"title":"Home Alone-1\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%20-1.mp4"},{"title":"Home Alone-2\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%202-%20Lost%20in%20New%20York.mp4"},{"title":"Home Alone-3\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%203.mp4"},{"title":"Home Alone-The Holiday Heist\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone-%20The%20Holiday%20Heist.mp4"},{"title":"Spies In Disguise 2019\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Spies.In.Disguise.2019.1080p.Bluray.mp4"},{"title":"Scooby-Doo! Abracadabra-Doo 2010\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20Abracadabra-Doo%202010.mp4"},{"title":"Scooby-Doo! Mask of the Blue Falcon 2012\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20Mask%20of%20the%20Blue%20Falcon%202012.mp4"},{"title":"Scooby-Doo! Wrestle Mania Mystery 2014\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20WrestleMania%20Mystery%202014.mp4"},{"title":"Scooby-Doo!,Aloha 2005\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!,Aloha%202005.mp4"},{"title":"Diary Of A Wimpy Kid-2010\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20Of%20A%20Wimpy%20Kid-2010.mp4"},{"title":"Diary of a Wimpy Kid- Rodrick Rules - 2011\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20of%20a%20Wimpy%20Kid-%20Rodrick%20Rules%20-%202011.mp4"},{"title":"Diary of a Wimpy Kid- Dog Days - 2012\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20of%20a%20Wimpy%20Kid-%20Dog%20Days%20-%202012.mp4"},{"title":"Diary Of A Wimpy Kid The Long Haul- 2017\r","path":"https:\/\/phim.homeschools.id.vn\/Disney%2B\/Diary.of.a.Wimpy.Kid.The.Long.Haul.2017.1080p.BluRay.REMUX.AVC.DTS-HD.MA.7.1-EPSiLON.mp4"},{"title":"little miss sunshine 2006\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Little%20Miss%20Sunshine.mp4"},{"title":"Around the World in 80 Days\r","path":"https:\/\/phim.homeschools.id.vn\/Around.the.World.in.80.Days.2021.mp4"},{"title":"Bedtime Stories 2008\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Bedtime%20Stories%20-%202008.mp4"},{"title":"Kung Fu Panda 1\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%20-%201.mp4"},{"title":"Kung Fu Panda 2\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%202.mp4"},{"title":"Kung Fu Panda 3\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%203.mp4"},{"title":"Kung Fu Panda 4\r","path":"https:\/\/phim.homeschools.id.vn\/Kung.Fu.Panda.4.2024.Vie.1080p.WEB.h264-ETHEL.mp4"},{"title":"Rise of the Guardians\r","path":"https:\/\/phim.homeschools.id.vn\/Rise%20of%20the%20Guardians.mp4"},{"title":"Tetris (2023)\r","path":"https:\/\/phim.homeschools.id.vn\/Tetris%20(2023).mp4"},{"title":"Wreck-It Ralph 2- Ralph Breaks the Internet (2018)\r","path":"https:\/\/phim.homeschools.id.vn\/Wreck-It%20Ralph%202-%20Ralph%20Breaks%20the%20Internet%20(2018).mp4"},{"title":"The Velveteen Rabbit (2023)\r","path":"https:\/\/phim.homeschools.id.vn\/The.Velveteen.Rabbit.2023.2160p.mp4"},{"title":"Orion and the Dark (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Orion.and.the.Dark.2024.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Snoopy Presents: Welcome Home, Franklin (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Welcome.Home.Franklin.2024.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Despicable Me - Minions 1 \r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Despicable%20Me%20-%20Minions%201%20(Eng).mp4"},{"title":"Despicable Me - Minions 2 \r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Minions.2015.BluRay.1080p.x264.iPad.AAC-MTeamPAD.mp4"},{"title":"Despicable Me - Minions 3\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Despicable%20Me%20-%20Minions%203%20(Eng).mp4"},{"title":"The Jungle Book 1\r","path":"https:\/\/phim.homeschools.id.vn\/The%20Jungle%20Book.mp4"},{"title":"The Jungle Book 2\r","path":"https:\/\/phim.homeschools.id.vn\/The%20Jungle%20Book%202.mp4"},{"title":"Luck (2022)\r","path":"https:\/\/phim.homeschools.id.vn\/Luck.2022.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-FLUX_viet%20sub.mp4"},{"title":"Under the Boardwalk(2023)\r","path":"https:\/\/phim.homeschools.id.vn\/Under.the.Boardwalk.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mp4"},{"title":"Harry Potter 20th Anniversary: Return to Hogwarts\r","path":"https:\/\/phim.homeschools.id.vn\/Harry%20Potter%2020th%20Anniversary-%20Return%20to%20Hogwarts.mp4"},{"title":"Woody Woodpecker Goes to Camp (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Woody.Woodpecker.Goes.to.Camp.2024.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"HIGH SCHOOL MUSICAL 1\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%201.mp4"},{"title":"HIGH SCHOOL MUSICAL 2\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%202.mp4"},{"title":"HIGH SCHOOL MUSICAL 3\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%203.mp4"},{"title":"The tale of the snail and the whale\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/The.Snail.and.the.Whale.2019.720p.WEB.H264-BaNHaMMER.mp4"},{"title":"Ron's Gone Wrong (2021)\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Rons.Gone.Wrong.2021.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT-Vietsub.mp4"},{"title":"The Garfield Movie(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/The%20Garfield.mp4"},{"title":"Descendants- The Rise of Red(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Descendants-%20The%20Rise%20of%20Red.mp4"},{"title":"Despicable Me 4(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Despicable%20Me%204.mp4"},{"title":"Inside Out 2(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Inside%20Out%202.mp4"}];
+            const videoElement = document.querySelector('#videoPlayer');
+            const initialVideoUrl = videoOptions[0].path; // Lấy URL của video đầu tiên
+
+            // Thiết lập src cho videoElement để tự động phát video đầu tiên
+            videoElement.src = initialVideoUrl;
+            videoElement.play();
+        }
+
+        // Thêm sự kiện khi thay đổi video được chọn
+        function onVideoChange(selectElement) {
+            const playlistIndex = document.querySelector('select[name="playlist"]').value;
+            const videoIndex = selectElement.value;
+            const videoOptions = [{"title":"Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi.\r"},{"title":"CARS 2(2011)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/CARS%202(2011).mp4"},{"title":"Coco (2017)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Coco%20(2017).mp4"},{"title":"DUTOPA 2016\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/DUTOPA%202016.mp4"},{"title":"Encanto.2021\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Encanto.2021.mp4"},{"title":"Frozen .2013\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Frozen%20.2013.mp4"},{"title":"Home.2015\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Home.2015.mp4"},{"title":"ICE AGE\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/ICE%20AGE.mp4"},{"title":"Luca.2021\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Luca.2021.mp4"},{"title":"Monsters.University.2013\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Monsters.University.2013.mp4"},{"title":"Puss.in.Boots.The.Last.Wish.2022\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Puss.in.Boots.The.Last.Wish.2022.mp4"},{"title":"Ratatouille.2007\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Ratatouille.2007.mp4"},{"title":"Sing (2016)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Sing%20(2016).mp4"},{"title":"Tangled .2010\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Tangled%20.2010.mp4"},{"title":"The.Lion.King.1994\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/The.Lion.King.1994.mp4"},{"title":"The.Princess.and.the.Frog.2009\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/The.Princess.and.the.Frog.2009.mp4"},{"title":"Turning.Red.2022\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Turning.Red.2022.mp4"},{"title":"Winnie the Pooh\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Winnie%20the%20Pooh.mp4"},{"title":"Yellow bird.2014\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Yellowbird.2014.mp4"},{"title":"Paw Patrol:the Mighty Movie 2023\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/PAW.Patrol.The.Mighty.Movie.2023.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Migration 2023 \r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/danvitdicu.mp4"},{"title":"Home Alone-1\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%20-1.mp4"},{"title":"Home Alone-2\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%202-%20Lost%20in%20New%20York.mp4"},{"title":"Home Alone-3\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%203.mp4"},{"title":"Home Alone-The Holiday Heist\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone-%20The%20Holiday%20Heist.mp4"},{"title":"Spies In Disguise 2019\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Spies.In.Disguise.2019.1080p.Bluray.mp4"},{"title":"Scooby-Doo! Abracadabra-Doo 2010\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20Abracadabra-Doo%202010.mp4"},{"title":"Scooby-Doo! Mask of the Blue Falcon 2012\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20Mask%20of%20the%20Blue%20Falcon%202012.mp4"},{"title":"Scooby-Doo! Wrestle Mania Mystery 2014\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20WrestleMania%20Mystery%202014.mp4"},{"title":"Scooby-Doo!,Aloha 2005\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!,Aloha%202005.mp4"},{"title":"Diary Of A Wimpy Kid-2010\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20Of%20A%20Wimpy%20Kid-2010.mp4"},{"title":"Diary of a Wimpy Kid- Rodrick Rules - 2011\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20of%20a%20Wimpy%20Kid-%20Rodrick%20Rules%20-%202011.mp4"},{"title":"Diary of a Wimpy Kid- Dog Days - 2012\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20of%20a%20Wimpy%20Kid-%20Dog%20Days%20-%202012.mp4"},{"title":"Diary Of A Wimpy Kid The Long Haul- 2017\r","path":"https:\/\/phim.homeschools.id.vn\/Disney%2B\/Diary.of.a.Wimpy.Kid.The.Long.Haul.2017.1080p.BluRay.REMUX.AVC.DTS-HD.MA.7.1-EPSiLON.mp4"},{"title":"little miss sunshine 2006\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Little%20Miss%20Sunshine.mp4"},{"title":"Around the World in 80 Days\r","path":"https:\/\/phim.homeschools.id.vn\/Around.the.World.in.80.Days.2021.mp4"},{"title":"Bedtime Stories 2008\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Bedtime%20Stories%20-%202008.mp4"},{"title":"Kung Fu Panda 1\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%20-%201.mp4"},{"title":"Kung Fu Panda 2\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%202.mp4"},{"title":"Kung Fu Panda 3\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%203.mp4"},{"title":"Kung Fu Panda 4\r","path":"https:\/\/phim.homeschools.id.vn\/Kung.Fu.Panda.4.2024.Vie.1080p.WEB.h264-ETHEL.mp4"},{"title":"Rise of the Guardians\r","path":"https:\/\/phim.homeschools.id.vn\/Rise%20of%20the%20Guardians.mp4"},{"title":"Tetris (2023)\r","path":"https:\/\/phim.homeschools.id.vn\/Tetris%20(2023).mp4"},{"title":"Wreck-It Ralph 2- Ralph Breaks the Internet (2018)\r","path":"https:\/\/phim.homeschools.id.vn\/Wreck-It%20Ralph%202-%20Ralph%20Breaks%20the%20Internet%20(2018).mp4"},{"title":"The Velveteen Rabbit (2023)\r","path":"https:\/\/phim.homeschools.id.vn\/The.Velveteen.Rabbit.2023.2160p.mp4"},{"title":"Orion and the Dark (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Orion.and.the.Dark.2024.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Snoopy Presents: Welcome Home, Franklin (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Welcome.Home.Franklin.2024.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Despicable Me - Minions 1 \r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Despicable%20Me%20-%20Minions%201%20(Eng).mp4"},{"title":"Despicable Me - Minions 2 \r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Minions.2015.BluRay.1080p.x264.iPad.AAC-MTeamPAD.mp4"},{"title":"Despicable Me - Minions 3\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Despicable%20Me%20-%20Minions%203%20(Eng).mp4"},{"title":"The Jungle Book 1\r","path":"https:\/\/phim.homeschools.id.vn\/The%20Jungle%20Book.mp4"},{"title":"The Jungle Book 2\r","path":"https:\/\/phim.homeschools.id.vn\/The%20Jungle%20Book%202.mp4"},{"title":"Luck (2022)\r","path":"https:\/\/phim.homeschools.id.vn\/Luck.2022.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-FLUX_viet%20sub.mp4"},{"title":"Under the Boardwalk(2023)\r","path":"https:\/\/phim.homeschools.id.vn\/Under.the.Boardwalk.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mp4"},{"title":"Harry Potter 20th Anniversary: Return to Hogwarts\r","path":"https:\/\/phim.homeschools.id.vn\/Harry%20Potter%2020th%20Anniversary-%20Return%20to%20Hogwarts.mp4"},{"title":"Woody Woodpecker Goes to Camp (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Woody.Woodpecker.Goes.to.Camp.2024.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"HIGH SCHOOL MUSICAL 1\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%201.mp4"},{"title":"HIGH SCHOOL MUSICAL 2\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%202.mp4"},{"title":"HIGH SCHOOL MUSICAL 3\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%203.mp4"},{"title":"The tale of the snail and the whale\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/The.Snail.and.the.Whale.2019.720p.WEB.H264-BaNHaMMER.mp4"},{"title":"Ron's Gone Wrong (2021)\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Rons.Gone.Wrong.2021.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT-Vietsub.mp4"},{"title":"The Garfield Movie(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/The%20Garfield.mp4"},{"title":"Descendants- The Rise of Red(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Descendants-%20The%20Rise%20of%20Red.mp4"},{"title":"Despicable Me 4(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Despicable%20Me%204.mp4"},{"title":"Inside Out 2(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Inside%20Out%202.mp4"}];
+            const videoUrl = videoOptions[videoIndex].path;
+            playCustomVideoByUrl(videoUrl);
+        }
+
+        function playCustomVideoByUrl(videoUrl) {
+            const videoElement = document.querySelector('#videoPlayer');
+            videoElement.src = videoUrl;
+            videoElement.play();
+        }
+
+
+        // Hàm để tự động chuyển đến video tiếp theo
+        function autoPlayNextVideo() {
+            const currentIndex = parseInt(document.querySelector('select[name="index"]').value);
+            const nextIndex = (currentIndex + 1) % 65;
+            window.location.href = `?playlist=0&index=${nextIndex}`;
+        }
+
+        // Thêm sự kiện khi video kết thúc để tự động chuyển đến video tiếp theo
+    const videoElement = document.querySelector('#videoPlayer');
+    const playlistIndex = 0;
+    const videoOptions = [{"title":"Ch\u1ecdn Video ph\u00eda d\u01b0\u1edbi.\r"},{"title":"CARS 2(2011)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/CARS%202(2011).mp4"},{"title":"Coco (2017)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Coco%20(2017).mp4"},{"title":"DUTOPA 2016\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/DUTOPA%202016.mp4"},{"title":"Encanto.2021\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Encanto.2021.mp4"},{"title":"Frozen .2013\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Frozen%20.2013.mp4"},{"title":"Home.2015\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Home.2015.mp4"},{"title":"ICE AGE\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/ICE%20AGE.mp4"},{"title":"Luca.2021\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Luca.2021.mp4"},{"title":"Monsters.University.2013\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Monsters.University.2013.mp4"},{"title":"Puss.in.Boots.The.Last.Wish.2022\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Puss.in.Boots.The.Last.Wish.2022.mp4"},{"title":"Ratatouille.2007\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Ratatouille.2007.mp4"},{"title":"Sing (2016)\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Sing%20(2016).mp4"},{"title":"Tangled .2010\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Tangled%20.2010.mp4"},{"title":"The.Lion.King.1994\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/The.Lion.King.1994.mp4"},{"title":"The.Princess.and.the.Frog.2009\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/The.Princess.and.the.Frog.2009.mp4"},{"title":"Turning.Red.2022\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Turning.Red.2022.mp4"},{"title":"Winnie the Pooh\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Winnie%20the%20Pooh.mp4"},{"title":"Yellow bird.2014\r","path":"https:\/\/dt1.homeschools.id.vn\/Disney\/Yellowbird.2014.mp4"},{"title":"Paw Patrol:the Mighty Movie 2023\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/PAW.Patrol.The.Mighty.Movie.2023.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Migration 2023 \r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/danvitdicu.mp4"},{"title":"Home Alone-1\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%20-1.mp4"},{"title":"Home Alone-2\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%202-%20Lost%20in%20New%20York.mp4"},{"title":"Home Alone-3\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone%203.mp4"},{"title":"Home Alone-The Holiday Heist\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Home%20Alone-%20The%20Holiday%20Heist.mp4"},{"title":"Spies In Disguise 2019\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Spies.In.Disguise.2019.1080p.Bluray.mp4"},{"title":"Scooby-Doo! Abracadabra-Doo 2010\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20Abracadabra-Doo%202010.mp4"},{"title":"Scooby-Doo! Mask of the Blue Falcon 2012\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20Mask%20of%20the%20Blue%20Falcon%202012.mp4"},{"title":"Scooby-Doo! Wrestle Mania Mystery 2014\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!%20WrestleMania%20Mystery%202014.mp4"},{"title":"Scooby-Doo!,Aloha 2005\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Scooby-Doo!,Aloha%202005.mp4"},{"title":"Diary Of A Wimpy Kid-2010\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20Of%20A%20Wimpy%20Kid-2010.mp4"},{"title":"Diary of a Wimpy Kid- Rodrick Rules - 2011\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20of%20a%20Wimpy%20Kid-%20Rodrick%20Rules%20-%202011.mp4"},{"title":"Diary of a Wimpy Kid- Dog Days - 2012\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Diary%20of%20a%20Wimpy%20Kid-%20Dog%20Days%20-%202012.mp4"},{"title":"Diary Of A Wimpy Kid The Long Haul- 2017\r","path":"https:\/\/phim.homeschools.id.vn\/Disney%2B\/Diary.of.a.Wimpy.Kid.The.Long.Haul.2017.1080p.BluRay.REMUX.AVC.DTS-HD.MA.7.1-EPSiLON.mp4"},{"title":"little miss sunshine 2006\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Little%20Miss%20Sunshine.mp4"},{"title":"Around the World in 80 Days\r","path":"https:\/\/phim.homeschools.id.vn\/Around.the.World.in.80.Days.2021.mp4"},{"title":"Bedtime Stories 2008\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/tonghopphim\/Bedtime%20Stories%20-%202008.mp4"},{"title":"Kung Fu Panda 1\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%20-%201.mp4"},{"title":"Kung Fu Panda 2\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%202.mp4"},{"title":"Kung Fu Panda 3\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Kung%20Fu%20Panda%203.mp4"},{"title":"Kung Fu Panda 4\r","path":"https:\/\/phim.homeschools.id.vn\/Kung.Fu.Panda.4.2024.Vie.1080p.WEB.h264-ETHEL.mp4"},{"title":"Rise of the Guardians\r","path":"https:\/\/phim.homeschools.id.vn\/Rise%20of%20the%20Guardians.mp4"},{"title":"Tetris (2023)\r","path":"https:\/\/phim.homeschools.id.vn\/Tetris%20(2023).mp4"},{"title":"Wreck-It Ralph 2- Ralph Breaks the Internet (2018)\r","path":"https:\/\/phim.homeschools.id.vn\/Wreck-It%20Ralph%202-%20Ralph%20Breaks%20the%20Internet%20(2018).mp4"},{"title":"The Velveteen Rabbit (2023)\r","path":"https:\/\/phim.homeschools.id.vn\/The.Velveteen.Rabbit.2023.2160p.mp4"},{"title":"Orion and the Dark (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Orion.and.the.Dark.2024.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Snoopy Presents: Welcome Home, Franklin (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Welcome.Home.Franklin.2024.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"Despicable Me - Minions 1 \r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Despicable%20Me%20-%20Minions%201%20(Eng).mp4"},{"title":"Despicable Me - Minions 2 \r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Minions.2015.BluRay.1080p.x264.iPad.AAC-MTeamPAD.mp4"},{"title":"Despicable Me - Minions 3\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Despicable%20Me%20-%20Minions%203%20(Eng).mp4"},{"title":"The Jungle Book 1\r","path":"https:\/\/phim.homeschools.id.vn\/The%20Jungle%20Book.mp4"},{"title":"The Jungle Book 2\r","path":"https:\/\/phim.homeschools.id.vn\/The%20Jungle%20Book%202.mp4"},{"title":"Luck (2022)\r","path":"https:\/\/phim.homeschools.id.vn\/Luck.2022.1080p.ATVP.WEB-DL.DDP5.1.Atmos.H.264-FLUX_viet%20sub.mp4"},{"title":"Under the Boardwalk(2023)\r","path":"https:\/\/phim.homeschools.id.vn\/Under.the.Boardwalk.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mp4"},{"title":"Harry Potter 20th Anniversary: Return to Hogwarts\r","path":"https:\/\/phim.homeschools.id.vn\/Harry%20Potter%2020th%20Anniversary-%20Return%20to%20Hogwarts.mp4"},{"title":"Woody Woodpecker Goes to Camp (2024)\r","path":"https:\/\/phim.homeschools.id.vn\/Woody.Woodpecker.Goes.to.Camp.2024.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mp4"},{"title":"HIGH SCHOOL MUSICAL 1\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%201.mp4"},{"title":"HIGH SCHOOL MUSICAL 2\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%202.mp4"},{"title":"HIGH SCHOOL MUSICAL 3\r","path":"https:\/\/phim.homeschools.id.vn\/HIGH%20SCHOOL%20MUSICAL%203.mp4"},{"title":"The tale of the snail and the whale\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/The.Snail.and.the.Whale.2019.720p.WEB.H264-BaNHaMMER.mp4"},{"title":"Ron's Gone Wrong (2021)\r","path":"https:\/\/phim.homeschools.id.vn\/Phim\/Rons.Gone.Wrong.2021.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT-Vietsub.mp4"},{"title":"The Garfield Movie(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/The%20Garfield.mp4"},{"title":"Descendants- The Rise of Red(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Descendants-%20The%20Rise%20of%20Red.mp4"},{"title":"Despicable Me 4(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Despicable%20Me%204.mp4"},{"title":"Inside Out 2(2024)\r","path":"https:\/\/phim.homeschools.id.vn\/2023\/Inside%20Out%202.mp4"}];
+
+    if (videoElement) {
+        videoElement.addEventListener('ended', () => {
+            autoPlayNextVideo();
+        });
+    }
+
+    function autoPlayNextVideo() {
+        const currentIndex = parseInt(document.querySelector('select[name="index"]').value);
+        const nextIndex = (currentIndex + 1) % 65;
+
+        // Cập nhật URL video mới và chơi video
+        const nextVideoUrl = videoOptions[nextIndex].path;
+        playCustomVideoByUrl(nextVideoUrl);
+
+        // Cập nhật giá trị index trong dropdown để đồng bộ với video mới
+        document.querySelector('select[name="index"]').value = nextIndex;
+    }
+
+    // Thêm sự kiện khi thay đổi video được chọn
+    function onVideoChange(selectElement) {
+        const playlistIndex = document.querySelector('select[name="playlist"]').value;
+        const videoIndex = selectElement.value;
+        const videoUrl = videoOptions[videoIndex].path;
+        playCustomVideoByUrl(videoUrl);
+    }
+
+    function playCustomVideoByUrl(videoUrl) {
+        const videoElement = document.querySelector('#videoPlayer');
+        videoElement.src = videoUrl;
+        videoElement.play();
+    }
+
+        // Thêm sự kiện khi nút "Replay" được nhấn để lặp lại video
+        const replayButton = document.querySelector('#replayButton');
+        if (replayButton) {
+            replayButton.addEventListener('click', () => {
+                replayVideo();
+            });
+        }
+
+        // Hàm để lặp lại video hiện tại
+        function replayVideo() {
+            const videoElement = document.querySelector('#videoPlayer');
+            if (videoElement) {
+                videoElement.currentTime = 0; // Đặt thời gian video về 0 để lặp lại từ đầu
+                videoElement.play();
+            }
+        }
+    </script>
+              <!-- End Table with stripped rows -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span><a href="https://www.facebook.com/groups/1341950386450087">Nhóm Công Nghệ 4.0 </a></span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Code by <a href="https://www.facebook.com/profile.php?id=61551473747491">Bùi Mạnh Hưng.</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

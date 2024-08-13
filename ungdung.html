@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from homeschools.id.vn/home/ungdung.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Homeschools Play Online</title>
+  <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+.home-link {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .user-greeting {
+            margin-bottom: 20px;
+        }
+
+        .playlist-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .playlist-menu select {
+            padding: 5px;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        }
+
+        video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+				/* Chỉnh font chữ cho phần menu */
+    .playlist-menu select {
+        padding: 5px;
+        font-size: 16px; /* Thay đổi kích thước font chữ tại đây */
+    }
+
+    /* Chỉnh font chữ cho danh sách video */
+    .playlist-menu select option {
+        font-size: 14px; /* Thay đổi kích thước font chữ tại đây */
+    }
+    </style>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com/" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">  HS Play Online </span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+        </li><!-- End Search Icon-->
+
+       
+
+        <li class="nav-item dropdown">
+
+          <!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+                       <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/Play-online.png" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        
+            
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li>
+	  	  
+	  <!-- End Dashboard Nav -->
+
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Acellus</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="acellusba45.html?playlist=0">
+              <i class="bi bi-circle"></i><span>Acellus-GK</span>
+            </a>
+          </li>
+		  <li>
+            <a href="acellus03d3.html?playlist=1">
+              <i class="bi bi-circle"></i><span>Acellus-G1</span>
+            </a>
+          </li>
+		  
+		  <li>
+            <a href="acellus0961.html?playlist=2">
+              <i class="bi bi-circle"></i><span>Acellus-G2</span>
+            </a>
+          </li>
+		  <li>
+            <a href="acellusaae0.html?playlist=3">
+              <i class="bi bi-circle"></i><span>Acellus-G3</span>
+            </a>
+          </li>
+		  
+		   <li>
+            <a href="acellus4650.html?playlist=4">
+              <i class="bi bi-circle"></i><span>Acellus-G4</span>
+            </a>
+          </li>
+		  
+		  <li>
+            <a href="acellus6f23.html?playlist=5">
+              <i class="bi bi-circle"></i><span>Acellus-G5</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Forms Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://fed.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>FED</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="https://kle.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>KLE</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="https://muzzy.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>Muzzy</span>
+        </a>
+      </li>
+	  	  	   <li class="nav-item">
+        <a class="nav-link collapsed" href="pbs.html">
+          <i class="bi bi-grid"></i>
+          <span>PBS KIDS</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="dw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Drawing</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="cw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Cooking</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="chess.html">
+          <i class="bi bi-grid"></i>
+          <span>Chess</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="as.html">
+          <i class="bi bi-grid"></i>
+          <span>It's AumSum Time</span>
+        </a>
+      </li>
+	  	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="al.html">
+          <i class="bi bi-grid"></i>
+          <span>Alphablocks</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="num.html">
+          <i class="bi bi-grid"></i>
+          <span>Numberblocks</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="pep.html">
+          <i class="bi bi-grid"></i>
+          <span>Peppa Pig</span>
+        </a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="phim.html">
+          <i class="bi bi-grid"></i>
+          <span>Film - Online</span>
+        </a>
+      </li>
+	    	  
+<li class="nav-item">
+        <a class="nav-link collapsed" href="ha.html">
+          <i class="bi bi-grid"></i>
+          <span>Hoffman Academy</span>
+        </a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="he.html">
+          <i class="bi bi-grid"></i>
+          <span>Heinemann</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="gogo.html">
+          <i class="bi bi-grid"></i>
+          <span>GoGo English</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="eng.html">
+          <i class="bi bi-grid"></i>
+          <span>English Singsing</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="raz.html">
+          <i class="bi bi-grid"></i>
+          <span>Razkids </span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="ungdung.html">
+          <i class="bi bi-grid"></i>
+          <span>Ứng Dụng </span>
+        </a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link collapsed" href="hotrosudung.html">
+          <i class="bi bi-grid"></i>
+          <span>Support</span>
+        </a>
+      </li>
+      </li><!-- End Icons Nav -->
+      </li><!-- End Components Nav -->
+                 </ul>
+      </li><!-- End Components Nav -->
+
+         
+
+      
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+  </body>
+
+
+<!-- Mirrored from homeschools.id.vn/home/ungdung.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+</html>
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Các phần mềm hỗ trợ</h1>
+      
+    </div><!-- End Page Title -->
+
+    
+	<section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">https://smallpdf.com</h5>
+              Trang chủ :<b><a href="https://smallpdf.com/">https://smallpdf.com/ </a></b> <br>ID : <b><a href="https://homeschools.id.vn/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b4c7d9d5d8d8c4d0d2f4dcdbd9d1c7d7dcdbdbd8c79addd09ac2da">[email&#160;protected]</a></b> <br> Pass:<b>Hung@1231 </b><br>      
+SmallPDF là một ứng dụng PDF trực tuyến, gọn nhẹ được trang bị tất cả các chức năng cơ bản của những giải pháp PDF. Người dùng có thể sử dụng công cụ mà không cần tải và cài đặt phần mềm. Một số các tác vụ bạn có thể thực hiện trên nền tảng này là chuyển đổi, hợp nhất, nén và chia nhỏ các file PDF. SmallPDF không có các khả năng mạnh mẽ như các ứng dụng desktop. Tuy nhiên, nó mang lại lợi ích cho đối tượng người dùng phù hợp.
+
+SmallPDF lý tưởng cho những người dùng thường xuyên làm việc với PDF nhưng không sử dụng các tính năng phức tạp hoặc nâng cao. Công cụ trực tuyến này được sử dụng hơn 15 triệu lần mỗi tháng, cho thấy mức độ hiệu quả của nó trong việc cung cấp sự tiện lợi và thúc đẩy năng suất cho người dùng.
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+	  </section>
+	<section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">https://www.kidsa-z.com/main/Login/</h5>
+              Trang chủ :<b><a href="https://www.kidsa-z.com/main/Login/">https://www.kidsa-z.com/main/Login/ </a></b> <br>teacher : <b>mzyzes</b> <br> Profiles:<b>Congnghe40 </b><br> Pass :<b>Hình con Thỏ </b><br>     
+Raz Kids là một phần mềm đọc sách tiếng Anh online do Hoa Kỳ cung cấp. Đây là app tiếng anh có trả phí với các đặc điểm riêng biệt:<br>
+
+– Raz Kids cung cấp hơn 800 quyển sách tiếng Anh khi bạn đăng ký gói cơ bản. Những quyển sách này được chia thành 29 mức độ từ dễ đến khó. Như vậy, các bé mới học tiếng Anh hay các con đã có sẵn nền tảng. đều dễ dàng tìm đúng các bài đọc đúng với trình độ của mình.<br>
+
+– Các nội dung trong Raz Kids được biên soạn chuẩn quốc tế. Nhờ đó, khi đọc sách trên app học tập này, con có thể hiểu được văn phong nước ngoài. Đồng thời nắm bắt cách đọc, cách viết chuẩn chỉnh.<br>
+
+– Chủ đề trên app Raz Kids khá đa dạng, có nhiều lĩnh vực thú vị giúp kích thích hứng thú học tập của con.            </div>
+          </div>
+        </div>
+      </div>
+	  
+	  <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">https://vooks.com/</h5>
+              Trang chủ :<b><a href="https://vooks.com/">https://vooks.com/ </a></b> <br>ID : <b><a href="https://homeschools.id.vn/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c1a0303071f2c040301091f0f040303001f420508421a02">[email&#160;protected]</a></b><br> Pass :<b>Hung@1231 </b><br>  Hướng dẫn tạo Profiles : https://youtu.be/EdFXrlojlIs   <br>
+			  Hướng dẫn tạo tài khoản teacher free 1 năm: https://youtu.be/QD0S_Ou07bo   <br>
+1.Tài khoản Vooks.com là gì?<br>
+Vooks ra mắt bạn đọc năm 2018 và được biết đến là thư viện trực tuyến cung cấp nhiều đầu truyện hoạt hình cho trẻ nhỏ. Nơi mà phụ huynh có thể tin tưởng để con em mình tiếp cận với sách internet, đảm bảo an toàn cho bé.<br>
+
+Đặc biệt Vooks.com còn thúc đẩy sự phát triển ngôn từ ở trẻ giúp tăng khả năng đọc hiểu và rèn luyện trí nhớ. Tài khoản giáo dục Vooks.com được đánh giá cao bởi người dùng, nó hỗ trợ đắc lực cho nhu cầu giải trí và học tập ở trẻ nhỏ.<br>
+
+Đối tượng sử dụng tài khoản Vooks.com<br>
+Vooks thiết kế hướng đến nhóm đối tượng trong độ từ 2-8 tuổi.<br>
+Phụ huynh có con nhỏ tuổi cần phải hỗ trợ hướng dẫn học kèm
+Giáo viên mầm non, tiểu học cần tìm tài liệu tham khảo giảng dạy
+2.Các tính năng tài khoản Vooks.com mang lại cho người dùng
+Các tính năng tài khoản Vooks.com đem đến trải nghiệm đọc thú vị hấp dẫn cho thiếu nhi.<br>
+
+Truyền tải nội dung không chỉ bằng văn bản mà qua là âm thanh, hình ảnh đa dạng nhiều màu sắc
+Bạn được cấp quyền truy cập vào toàn bộ nội dung sách mà mình yêu thích.<br>
+Xem trọn nội dung không bị quảng cáo làm gián đoạn
+Cho phép tải xuống các nội dung hỗ trợ xem khi không có kết nối internet hoặc mạng kém.<br>
+Tài khoản giao dục Vooks. com cho phép người đăng ký truy cập 3 thiết bị xem cùng một thời điểm. Do đó bạn có thể chia sẻ hướng trẻ em đến những cuốn sách hay bổ ích
+Bạn hoàn toàn có thể tạo một thư mục cá nhân, danh sách phát yêu thích cho bạn hoặc các bé nhỏ.<br>
+Miễn phí nội dung giáo án đi kèm các cuốn sách nhất định cho phụ huynh và giáo viên làm tài liệu tham khảo.<br>
+Các bài học đi kèm theo được phân chia nhỏ hữu ích kết hợp vừa học vừa chơi sẽ giúp các bé tiếp thu nhanh hơn </div>          </div>
+          </div>
+        </div>
+      </div>
+	  
+    </section>
+	 <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Allavsoft.com</h5>
+              mình chia sẻ đến cả nhà 1 ứng dụng rất phù hợp đến việc download ( theo như site giới thiệu là có thể download video khoảng 1000 site , convert , ghép nhạc để copy vào các thiết bị di động... hỗ trợ cho các con học tập 🙂<br>
+Tên Soft : Allavsoft - link tải các bạn có thể vào thẳng trang chủ tải :https://www.allavsoft.com/ ( tránh tải ở những link khác để tránh virus )<br>
+sau khi cài xong các bạn điền name và key :<br>
+Name: <b>mr.cPanel <br></b>
+Key: <b>D8E0-3286-7A20-0196-7DC0-3FCB-7F98-01D0</b> <br>
+key mình đã mua nên các bạn yên tâm sử dụng<br>
+Allavsoft - Video and Music Downloader<br>
+BATCH DOWNLOAD VIDEO, MUSIC AND SUBTITLES FROM 1000+ WEBSITES<br>
+DOWNLOAD MUSIC FROM SPOTIFY, YOUTUBE, DEEZER, TIDAL, SOUNDCLOUD ETC TO MP3, FLAC<br>
+Video Downloader mạnh mẽ này hỗ trợ tải video cũng như danh sách phát từ các trang web chia sẻ video khác nhau như YouTube, Facebook, Dailymotion, eHow, … Với phần mềm này, bạn có thể tải video ở định dạng ban đầu, cũng như chuyển đổi video đã tải xuống sang video phổ biến định dạng như mp4, avi, mkv, wmv, vob, asf, ts, flv, 3gp, mp3, v.v …
+
+
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+	
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span><a href="https://www.facebook.com/groups/1341950386450087">Nhóm Công Nghệ 4.0 </a></span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Code by <a href="https://www.facebook.com/profile.php?id=61551473747491">Bùi Mạnh Hưng.</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

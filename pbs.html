@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from homeschools.id.vn/home/pbs.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Homeschools Play Online</title>
+  <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+.home-link {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .user-greeting {
+            margin-bottom: 20px;
+        }
+
+        .playlist-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .playlist-menu select {
+            padding: 5px;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        }
+
+        video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+				/* Chỉnh font chữ cho phần menu */
+    .playlist-menu select {
+        padding: 5px;
+        font-size: 16px; /* Thay đổi kích thước font chữ tại đây */
+    }
+
+    /* Chỉnh font chữ cho danh sách video */
+    .playlist-menu select option {
+        font-size: 14px; /* Thay đổi kích thước font chữ tại đây */
+    }
+    </style>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com/" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">  HS Play Online </span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+        </li><!-- End Search Icon-->
+
+       
+
+        <li class="nav-item dropdown">
+
+          <!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+                       <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/Play-online.png" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        
+            
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li>
+	  	  
+	  <!-- End Dashboard Nav -->
+
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Acellus</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="acellusba45.html?playlist=0">
+              <i class="bi bi-circle"></i><span>Acellus-GK</span>
+            </a>
+          </li>
+		  <li>
+            <a href="acellus03d3.html?playlist=1">
+              <i class="bi bi-circle"></i><span>Acellus-G1</span>
+            </a>
+          </li>
+		  
+		  <li>
+            <a href="acellus0961.html?playlist=2">
+              <i class="bi bi-circle"></i><span>Acellus-G2</span>
+            </a>
+          </li>
+		  <li>
+            <a href="acellusaae0.html?playlist=3">
+              <i class="bi bi-circle"></i><span>Acellus-G3</span>
+            </a>
+          </li>
+		  
+		   <li>
+            <a href="acellus4650.html?playlist=4">
+              <i class="bi bi-circle"></i><span>Acellus-G4</span>
+            </a>
+          </li>
+		  
+		  <li>
+            <a href="acellus6f23.html?playlist=5">
+              <i class="bi bi-circle"></i><span>Acellus-G5</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Forms Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://fed.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>FED</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="https://kle.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>KLE</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="https://muzzy.homeschools.id.vn/">
+          <i class="bi bi-grid"></i>
+          <span>Muzzy</span>
+        </a>
+      </li>
+	  	  	   <li class="nav-item">
+        <a class="nav-link collapsed" href="pbs.html">
+          <i class="bi bi-grid"></i>
+          <span>PBS KIDS</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="dw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Drawing</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="cw.html">
+          <i class="bi bi-grid"></i>
+          <span>Kids Cooking</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="chess.html">
+          <i class="bi bi-grid"></i>
+          <span>Chess</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="as.html">
+          <i class="bi bi-grid"></i>
+          <span>It's AumSum Time</span>
+        </a>
+      </li>
+	  	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="al.html">
+          <i class="bi bi-grid"></i>
+          <span>Alphablocks</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="num.html">
+          <i class="bi bi-grid"></i>
+          <span>Numberblocks</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="pep.html">
+          <i class="bi bi-grid"></i>
+          <span>Peppa Pig</span>
+        </a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="phim.html">
+          <i class="bi bi-grid"></i>
+          <span>Film - Online</span>
+        </a>
+      </li>
+	    	  
+<li class="nav-item">
+        <a class="nav-link collapsed" href="ha.html">
+          <i class="bi bi-grid"></i>
+          <span>Hoffman Academy</span>
+        </a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="he.html">
+          <i class="bi bi-grid"></i>
+          <span>Heinemann</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="gogo.html">
+          <i class="bi bi-grid"></i>
+          <span>GoGo English</span>
+        </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link collapsed" href="eng.html">
+          <i class="bi bi-grid"></i>
+          <span>English Singsing</span>
+        </a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link collapsed" href="raz.html">
+          <i class="bi bi-grid"></i>
+          <span>Razkids </span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="ungdung.html">
+          <i class="bi bi-grid"></i>
+          <span>Ứng Dụng </span>
+        </a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link collapsed" href="hotrosudung.html">
+          <i class="bi bi-grid"></i>
+          <span>Support</span>
+        </a>
+      </li>
+      </li><!-- End Icons Nav -->
+      </li><!-- End Components Nav -->
+                 </ul>
+      </li><!-- End Components Nav -->
+
+         
+
+      
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+  </body>
+
+
+<!-- Mirrored from homeschools.id.vn/home/pbs.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Aug 2024 09:29:52 GMT -->
+</html>  <main id="main" class="main">
+
+    <center>
+        <div class="pagetitle">
+            <h3>PBS KIDS ONLINE</h3>
+            <nav>
+            </nav>
+        </div>
+    </center>
+    <!-- End Page Title -->
+
+    <!-- Table with stripped rows -->
+    <div class="container">
+        
+                    <div class="video-container">
+                <video id="videoPlayer" controls autoplay="false">
+                    <source src="#" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ trình phát video.
+                </video>
+                
+            </div>
+            <div class="playlist-menu">
+                <select name="playlist" onchange="onPlaylistChange(this)">
+                                            <option value="0" selected>PINKALICIOUS & PETERRIFIC - PBS KIDS</option>
+                                    </select>
+
+                <select name='index' onchange="onVideoChange(this)">
+                                                                    <option value="0" selected>Pinkalicious & Peterrific_ A Pinkaperfect Birthday</option>
+                                                                    <option value="1" >Pinkalicious & Peterrific_ A Pinkaperfect Birthday.ia_2</option>
+                                                                    <option value="2" >Pinkalicious & Peterrific_ Cupid Calls It Quits</option>
+                                                                    <option value="3" >Pinkalicious and Peterrific_S01_ A Pinkaperfect Birthday</option>
+                                                                    <option value="4" >Pinkalicious and Peterrific_S01E01_Fairy House_Pinkabotta and Peterbotta</option>
+                                                                    <option value="5" >Pinkalicious and Peterrific_S01E02_Slumber Party_Puptastic</option>
+                                                                    <option value="6" >Pinkalicious and Peterrific_S01E03_Invisible Band_Best Pink Present</option>
+                                                                    <option value="7" >Pinkalicious and Peterrific_S01E04_Dancing Shoes_No Honking</option>
+                                                                    <option value="8" >Pinkalicious and Peterrific_S01E05_The Sand Palace_Zoo Day</option>
+                                                                    <option value="9" >Pinkalicious and Peterrific_S01E06_Plantastically Pink_Painting Pixie</option>
+                                                                    <option value="10" >Pinkalicious and Peterrific_S01E07_Pinkalicious_Glitterizer</option>
+                                                                    <option value="11" >Pinkalicious and Peterrific_S01E08_All Tangled Up_Above the Clouds</option>
+                                                                    <option value="12" >Pinkalicious and Peterrific_S01E09_Snow Fairy_To Catch a Leaf</option>
+                                                                    <option value="13" >Pinkalicious and Peterrific_S01E10_Peter_s Blues_Pink Raspberry</option>
+                                                                    <option value="14" >Pinkalicious and Peterrific_S01E11_Pink Lemonade_Pink Sneakers</option>
+                                                                    <option value="15" >Pinkalicious and Peterrific_S01E12_Gnome More Nonsense_Space Dancing</option>
+                                                                    <option value="16" >Pinkalicious and Peterrific_S01E13_Indoor Camping_Flutterbugs</option>
+                                                                    <option value="17" >Pinkalicious and Peterrific_S01E14_The Celebrator_Secret Sculpture</option>
+                                                                    <option value="18" >Pinkalicious and Peterrific_S01E15_Sweet Pea Pixie_Pink Piper</option>
+                                                                    <option value="19" >Pinkalicious and Peterrific_S01E16_Cha-Cha-licious _ Show and Smell</option>
+                                                                    <option value="20" >Pinkalicious and Peterrific_S01E17_That Unicorn Feeling _ School Rules</option>
+                                                                    <option value="21" >Pinkalicious and Peterrific_S01E18_Garden Gnome Party _ Scooter Boy</option>
+                                                                    <option value="22" >Pinkalicious and Peterrific_S01E19_Missing Squeakykins _ The Cloud-O-Matic</option>
+                                                                    <option value="23" >Pinkalicious and Peterrific_S01E20_Dream Salon _ The Duck Stops Here</option>
+                                                                    <option value="24" >Pinkalicious and Peterrific_S01E21_Pink or Treat _ Berry Scary</option>
+                                                                    <option value="25" >Pinkalicious and Peterrific_S01E22_Sidewalk Art _ Gnome at Home</option>
+                                                                    <option value="26" >Pinkalicious and Peterrific_S01E23_Don_t Wake Norman _ Pinkasaurus</option>
+                                                                    <option value="27" >Pinkalicious and Peterrific_S01E24_Pink Love _ Duocorn</option>
+                                                                    <option value="28" >Pinkalicious and Peterrific_S01E25_Monkey Dance _ Royal Peacock Dance</option>
+                                                                    <option value="29" >Pinkalicious and Peterrific_S01E26_Star Light, Star Not So Bright _ The Opera-matic</option>
+                                                                    <option value="30" >Pinkalicious and Peterrific_S01E27_Fashion Fun _ Welcome Pinka Bear</option>
+                                                                    <option value="31" >Pinkalicious and Peterrific_S01E28_Peterrific _ Mother_s Day Surprise</option>
+                                                                    <option value="32" >Pinkalicious and Peterrific_S01E29_Face Painting _ Sailing Away</option>
+                                                                    <option value="33" >Pinkalicious and Peterrific_S01E30_Lost Voice _ Doll Hospital</option>
+                                                                    <option value="34" >Pinkalicious and Peterrific_S01E31_Best Day Ever _ Catchy Song</option>
+                                                                    <option value="35" >Pinkalicious and Peterrific_S01E32_Jumping for Joy_The Pinkatoo</option>
+                                                                    <option value="36" >Pinkalicious and Peterrific_S01E33_Knights of the Pink Table_Music Mix Up</option>
+                                                                    <option value="37" >Pinkalicious and Peterrific_S01E34_Whale of a Song_Pinkabubbles</option>
+                                                                    <option value="38" >Pinkalicious and Peterrific_S01E35_Amazing Sled Run_Frost Fairy</option>
+                                                                    <option value="39" >Pinkalicious and Peterrific_S01E36_Drawing Noses_Pinkalicious on Ice</option>
+                                                                    <option value="40" >Pinkalicious and Peterrific_S01E37_A Real Hoot_Amazing Tower of Igloos</option>
+                                                                    <option value="41" >Pinkalicious and Peterrific_S01E38_Pinkfoot_Flossie the Mossling</option>
+                                                                    <option value="42" >Pinkalicious and Peterrific_S02E01_A Birthday Party for Kendra_Norman Plans a Playdate</option>
+                                                                    <option value="43" >Pinkalicious and Peterrific_S02E02_Aqualicious_Sing in the Spring</option>
+                                                                    <option value="44" >Pinkalicious and Peterrific_S02E03_Mr_ Socko_A Pinkapurrfect Pet</option>
+                                                                    <option value="45" >Pinkalicious and Peterrific_S02E04_Yodelahee Goat_Pink Mascot</option>
+                                                                    <option value="46" >Pinkalicious and Peterrific_S02E05_The Sparkle Kart_The Pinkville Merry-Go-Round</option>
+                                                                    <option value="47" >Pinkalicious and Peterrific_S02E06_Invasion of the Flutterbugs_Ballet of the Bells</option>
+                                                                    <option value="48" >Pinkalicious and Peterrific_S02E07_Treasure Hunt_Cheer Up%2C Archie</option>
+                                                                    <option value="49" >Pinkalicious and Peterrific_S02E08_PinkaPolka Dotty_Lila Gets Glasses</option>
+                                                                    <option value="50" >Pinkalicious and Peterrific_S02E09_Invisible Ink_Rusty_s Doghouse</option>
+                                                                    <option value="51" >Pinkalicious and Peterrific_S02E10_Petercadabra_Sleepless in Pinkville</option>
+                                                                    <option value="52" >Pinkalicious and Peterrific_S02E11_Spoon Sounds_Robotta the Artiste</option>
+                                                                    <option value="53" >Pinkalicious and Peterrific_S02E12_A Fairy Thanksgiving_Pinkfoot Playdate</option>
+                                                                    <option value="54" >Pinkalicious and Peterrific_S02E13_Gingerbread House_Christmas Tree Trouble</option>
+                                                                    <option value="55" >Pinkalicious and Peterrific_S03E01_Butterfly Garden Party_Animal Dance</option>
+                                                                    <option value="56" >Pinkalicious and Peterrific_S03E02_Peter_s Portrait_Pink Peepers</option>
+                                                                    <option value="57" >Pinkalicious and Peterrific_S03E03_The Monster Trap_The Search for Peter_s Whistle</option>
+                                                                    <option value="58" >Pinkalicious and Peterrific_S03E04_Peter_s Pet_Cupcake Calamity</option>
+                                                                    <option value="59" >Pinkalicious and Peterrific_S03E05_Paintbrush Boy and Pencil Girl_Save a Tree</option>
+                                    </select>
+            </div>
+			 <div class="container">
+                <form method="post" action="#">
+                    <input type="text" name="search" placeholder="Tìm kiếm tên video" style="width: 250px;">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+				 
+            </div>
+            </div>
+
+    <script>
+        // Thêm sự kiện khi trang được tải để tự động phát video ban đầu
+        window.addEventListener('DOMContentLoaded', function () {
+            playCustomVideo();
+        });
+
+        function onPlaylistChange(selectElement) {
+            const playlistIndex = selectElement.value;
+            window.location.href = `?playlist=${playlistIndex}`;
+        }
+
+        function onVideoChange(selectElement) {
+            const playlistIndex = document.querySelector('select[name="playlist"]').value;
+            const videoIndex = selectElement.value;
+            window.location.href = `?playlist=${playlistIndex}&index=${videoIndex}`;
+        }
+
+        function playCustomVideo() {
+            const videoUrl = "";
+            const videoElement = document.querySelector('#videoPlayer');
+
+            // Thiết lập src cho videoElement để tự động phát video
+            videoElement.src = videoUrl;
+            videoElement.play();
+        }
+
+function playCustomVideo() {
+            const videoOptions = [{"title":"Pinkalicious & Peterrific_ A Pinkaperfect Birthday\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20A%20Pinkaperfect%20Birthday.ia.mp4"},{"title":"Pinkalicious & Peterrific_ A Pinkaperfect Birthday.ia_2\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20A%20Pinkaperfect%20Birthday.ia_2.mp4"},{"title":"Pinkalicious & Peterrific_ Cupid Calls It Quits\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20Cupid%20Calls%20It%20Quits.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01_ A Pinkaperfect Birthday\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01_%20A%20Pinkaperfect%20Birthday.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E01_Fairy House_Pinkabotta and Peterbotta\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E01_Fairy%20House_Pinkabotta%20and%20Peterbotta.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E02_Slumber Party_Puptastic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E02_Slumber%20Party_Puptastic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E03_Invisible Band_Best Pink Present\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E03_Invisible%20Band_Best%20Pink%20Present.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E04_Dancing Shoes_No Honking\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E04_Dancing%20Shoes_No%20Honking.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E05_The Sand Palace_Zoo Day\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E05_The%20Sand%20Palace_Zoo%20Day.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E06_Plantastically Pink_Painting Pixie\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E06_Plantastically%20Pink_Painting%20Pixie.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E07_Pinkalicious_Glitterizer\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E07_Pinkalicious_Glitterizer.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E08_All Tangled Up_Above the Clouds\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E08_All%20Tangled%20Up_Above%20the%20Clouds.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E09_Snow Fairy_To Catch a Leaf\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E09_Snow%20Fairy_To%20Catch%20a%20Leaf.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E10_Peter_s Blues_Pink Raspberry\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E10_Peter_s%20Blues_Pink%20Raspberry.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E11_Pink Lemonade_Pink Sneakers\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E11_Pink%20Lemonade_Pink%20Sneakers.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E12_Gnome More Nonsense_Space Dancing\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E12_Gnome%20More%20Nonsense_Space%20Dancing.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E13_Indoor Camping_Flutterbugs\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E13_Indoor%20Camping_Flutterbugs.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E14_The Celebrator_Secret Sculpture\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E14_The%20Celebrator_Secret%20Sculpture.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E15_Sweet Pea Pixie_Pink Piper\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E15_Sweet%20Pea%20Pixie_Pink%20Piper.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E16_Cha-Cha-licious _ Show and Smell\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E16_Cha-Cha-licious%20_%20Show%20and%20Smell.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E17_That Unicorn Feeling _ School Rules\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E17_That%20Unicorn%20Feeling%20_%20School%20Rules.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E18_Garden Gnome Party _ Scooter Boy\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E18_Garden%20Gnome%20Party%20_%20Scooter%20Boy.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E19_Missing Squeakykins _ The Cloud-O-Matic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E19_Missing%20Squeakykins%20_%20The%20Cloud-O-Matic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E20_Dream Salon _ The Duck Stops Here\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E20_Dream%20Salon%20_%20The%20Duck%20Stops%20Here.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E21_Pink or Treat _ Berry Scary\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E21_Pink%20or%20Treat%20_%20Berry%20Scary.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E22_Sidewalk Art _ Gnome at Home\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E22_Sidewalk%20Art%20_%20Gnome%20at%20Home.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E23_Don_t Wake Norman _ Pinkasaurus\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E23_Don_t%20Wake%20Norman%20_%20Pinkasaurus.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E24_Pink Love _ Duocorn\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E24_Pink%20Love%20_%20Duocorn.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E25_Monkey Dance _ Royal Peacock Dance\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E25_Monkey%20Dance%20_%20Royal%20Peacock%20Dance.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E26_Star Light, Star Not So Bright _ The Opera-matic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E26_Star%20Light,%20Star%20Not%20So%20Bright%20_%20The%20Opera-matic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E27_Fashion Fun _ Welcome Pinka Bear\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E27_Fashion%20Fun%20_%20Welcome%20Pinka%20Bear.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E28_Peterrific _ Mother_s Day Surprise\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E28_Peterrific%20_%20Mother_s%20Day%20Surprise.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E29_Face Painting _ Sailing Away\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E29_Face%20Painting%20_%20Sailing%20Away.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E30_Lost Voice _ Doll Hospital\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E30_Lost%20Voice%20_%20Doll%20Hospital.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E31_Best Day Ever _ Catchy Song\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E31_Best%20Day%20Ever%20_%20Catchy%20Song.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E32_Jumping for Joy_The Pinkatoo\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E32_Jumping%20for%20Joy_The%20Pinkatoo.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E33_Knights of the Pink Table_Music Mix Up\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E33_Knights%20of%20the%20Pink%20Table_Music%20Mix%20Up.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E34_Whale of a Song_Pinkabubbles\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E34_Whale%20of%20a%20Song_Pinkabubbles.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E35_Amazing Sled Run_Frost Fairy\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E35_Amazing%20Sled%20Run_Frost%20Fairy.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E36_Drawing Noses_Pinkalicious on Ice\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E36_Drawing%20Noses_Pinkalicious%20on%20Ice.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E37_A Real Hoot_Amazing Tower of Igloos\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E37_A%20Real%20Hoot_Amazing%20Tower%20of%20Igloos.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E38_Pinkfoot_Flossie the Mossling\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E38_Pinkfoot_Flossie%20the%20Mossling.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E01_A Birthday Party for Kendra_Norman Plans a Playdate\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E01_A%20Birthday%20Party%20for%20Kendra_Norman%20Plans%20a%20Playdate.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E02_Aqualicious_Sing in the Spring\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E02_Aqualicious_Sing%20in%20the%20Spring.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E03_Mr_ Socko_A Pinkapurrfect Pet\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E03_Mr_%20Socko_A%20Pinkapurrfect%20Pet.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E04_Yodelahee Goat_Pink Mascot\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E04_Yodelahee%20Goat_Pink%20Mascot.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E05_The Sparkle Kart_The Pinkville Merry-Go-Round\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E05_The%20Sparkle%20Kart_The%20Pinkville%20Merry-Go-Round.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E06_Invasion of the Flutterbugs_Ballet of the Bells\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E06_Invasion%20of%20the%20Flutterbugs_Ballet%20of%20the%20Bells.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E07_Treasure Hunt_Cheer Up%2C Archie\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E07_Treasure%20Hunt_Cheer%20Up%2C%20Archie.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E08_PinkaPolka Dotty_Lila Gets Glasses\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E08_PinkaPolka%20Dotty_Lila%20Gets%20Glasses.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E09_Invisible Ink_Rusty_s Doghouse\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E09_Invisible%20Ink_Rusty_s%20Doghouse.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E10_Petercadabra_Sleepless in Pinkville\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E10_Petercadabra_Sleepless%20in%20Pinkville.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E11_Spoon Sounds_Robotta the Artiste\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E11_Spoon%20Sounds_Robotta%20the%20Artiste.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E12_A Fairy Thanksgiving_Pinkfoot Playdate\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E12_A%20Fairy%20Thanksgiving_Pinkfoot%20Playdate.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E13_Gingerbread House_Christmas Tree Trouble\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E13_Gingerbread%20House_Christmas%20Tree%20Trouble.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E01_Butterfly Garden Party_Animal Dance\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E01_Butterfly%20Garden%20Party_Animal%20Dance.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E02_Peter_s Portrait_Pink Peepers\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E02_Peter_s%20Portrait_Pink%20Peepers.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E03_The Monster Trap_The Search for Peter_s Whistle\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E03_The%20Monster%20Trap_The%20Search%20for%20Peter_s%20Whistle.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E04_Peter_s Pet_Cupcake Calamity\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E04_Peter_s%20Pet_Cupcake%20Calamity.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E05_Paintbrush Boy and Pencil Girl_Save a Tree\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E05_Paintbrush%20Boy%20and%20Pencil%20Girl_Save%20a%20Tree.ia.mp4"}];
+            const videoElement = document.querySelector('#videoPlayer');
+            const initialVideoUrl = videoOptions[0].path; // Lấy URL của video đầu tiên
+
+            // Thiết lập src cho videoElement để tự động phát video đầu tiên
+            videoElement.src = initialVideoUrl;
+            videoElement.play();
+        }
+
+        // Thêm sự kiện khi thay đổi video được chọn
+        function onVideoChange(selectElement) {
+            const playlistIndex = document.querySelector('select[name="playlist"]').value;
+            const videoIndex = selectElement.value;
+            const videoOptions = [{"title":"Pinkalicious & Peterrific_ A Pinkaperfect Birthday\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20A%20Pinkaperfect%20Birthday.ia.mp4"},{"title":"Pinkalicious & Peterrific_ A Pinkaperfect Birthday.ia_2\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20A%20Pinkaperfect%20Birthday.ia_2.mp4"},{"title":"Pinkalicious & Peterrific_ Cupid Calls It Quits\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20Cupid%20Calls%20It%20Quits.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01_ A Pinkaperfect Birthday\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01_%20A%20Pinkaperfect%20Birthday.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E01_Fairy House_Pinkabotta and Peterbotta\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E01_Fairy%20House_Pinkabotta%20and%20Peterbotta.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E02_Slumber Party_Puptastic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E02_Slumber%20Party_Puptastic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E03_Invisible Band_Best Pink Present\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E03_Invisible%20Band_Best%20Pink%20Present.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E04_Dancing Shoes_No Honking\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E04_Dancing%20Shoes_No%20Honking.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E05_The Sand Palace_Zoo Day\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E05_The%20Sand%20Palace_Zoo%20Day.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E06_Plantastically Pink_Painting Pixie\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E06_Plantastically%20Pink_Painting%20Pixie.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E07_Pinkalicious_Glitterizer\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E07_Pinkalicious_Glitterizer.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E08_All Tangled Up_Above the Clouds\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E08_All%20Tangled%20Up_Above%20the%20Clouds.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E09_Snow Fairy_To Catch a Leaf\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E09_Snow%20Fairy_To%20Catch%20a%20Leaf.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E10_Peter_s Blues_Pink Raspberry\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E10_Peter_s%20Blues_Pink%20Raspberry.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E11_Pink Lemonade_Pink Sneakers\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E11_Pink%20Lemonade_Pink%20Sneakers.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E12_Gnome More Nonsense_Space Dancing\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E12_Gnome%20More%20Nonsense_Space%20Dancing.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E13_Indoor Camping_Flutterbugs\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E13_Indoor%20Camping_Flutterbugs.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E14_The Celebrator_Secret Sculpture\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E14_The%20Celebrator_Secret%20Sculpture.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E15_Sweet Pea Pixie_Pink Piper\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E15_Sweet%20Pea%20Pixie_Pink%20Piper.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E16_Cha-Cha-licious _ Show and Smell\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E16_Cha-Cha-licious%20_%20Show%20and%20Smell.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E17_That Unicorn Feeling _ School Rules\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E17_That%20Unicorn%20Feeling%20_%20School%20Rules.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E18_Garden Gnome Party _ Scooter Boy\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E18_Garden%20Gnome%20Party%20_%20Scooter%20Boy.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E19_Missing Squeakykins _ The Cloud-O-Matic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E19_Missing%20Squeakykins%20_%20The%20Cloud-O-Matic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E20_Dream Salon _ The Duck Stops Here\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E20_Dream%20Salon%20_%20The%20Duck%20Stops%20Here.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E21_Pink or Treat _ Berry Scary\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E21_Pink%20or%20Treat%20_%20Berry%20Scary.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E22_Sidewalk Art _ Gnome at Home\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E22_Sidewalk%20Art%20_%20Gnome%20at%20Home.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E23_Don_t Wake Norman _ Pinkasaurus\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E23_Don_t%20Wake%20Norman%20_%20Pinkasaurus.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E24_Pink Love _ Duocorn\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E24_Pink%20Love%20_%20Duocorn.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E25_Monkey Dance _ Royal Peacock Dance\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E25_Monkey%20Dance%20_%20Royal%20Peacock%20Dance.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E26_Star Light, Star Not So Bright _ The Opera-matic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E26_Star%20Light,%20Star%20Not%20So%20Bright%20_%20The%20Opera-matic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E27_Fashion Fun _ Welcome Pinka Bear\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E27_Fashion%20Fun%20_%20Welcome%20Pinka%20Bear.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E28_Peterrific _ Mother_s Day Surprise\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E28_Peterrific%20_%20Mother_s%20Day%20Surprise.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E29_Face Painting _ Sailing Away\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E29_Face%20Painting%20_%20Sailing%20Away.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E30_Lost Voice _ Doll Hospital\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E30_Lost%20Voice%20_%20Doll%20Hospital.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E31_Best Day Ever _ Catchy Song\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E31_Best%20Day%20Ever%20_%20Catchy%20Song.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E32_Jumping for Joy_The Pinkatoo\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E32_Jumping%20for%20Joy_The%20Pinkatoo.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E33_Knights of the Pink Table_Music Mix Up\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E33_Knights%20of%20the%20Pink%20Table_Music%20Mix%20Up.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E34_Whale of a Song_Pinkabubbles\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E34_Whale%20of%20a%20Song_Pinkabubbles.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E35_Amazing Sled Run_Frost Fairy\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E35_Amazing%20Sled%20Run_Frost%20Fairy.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E36_Drawing Noses_Pinkalicious on Ice\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E36_Drawing%20Noses_Pinkalicious%20on%20Ice.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E37_A Real Hoot_Amazing Tower of Igloos\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E37_A%20Real%20Hoot_Amazing%20Tower%20of%20Igloos.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E38_Pinkfoot_Flossie the Mossling\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E38_Pinkfoot_Flossie%20the%20Mossling.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E01_A Birthday Party for Kendra_Norman Plans a Playdate\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E01_A%20Birthday%20Party%20for%20Kendra_Norman%20Plans%20a%20Playdate.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E02_Aqualicious_Sing in the Spring\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E02_Aqualicious_Sing%20in%20the%20Spring.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E03_Mr_ Socko_A Pinkapurrfect Pet\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E03_Mr_%20Socko_A%20Pinkapurrfect%20Pet.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E04_Yodelahee Goat_Pink Mascot\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E04_Yodelahee%20Goat_Pink%20Mascot.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E05_The Sparkle Kart_The Pinkville Merry-Go-Round\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E05_The%20Sparkle%20Kart_The%20Pinkville%20Merry-Go-Round.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E06_Invasion of the Flutterbugs_Ballet of the Bells\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E06_Invasion%20of%20the%20Flutterbugs_Ballet%20of%20the%20Bells.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E07_Treasure Hunt_Cheer Up%2C Archie\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E07_Treasure%20Hunt_Cheer%20Up%2C%20Archie.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E08_PinkaPolka Dotty_Lila Gets Glasses\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E08_PinkaPolka%20Dotty_Lila%20Gets%20Glasses.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E09_Invisible Ink_Rusty_s Doghouse\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E09_Invisible%20Ink_Rusty_s%20Doghouse.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E10_Petercadabra_Sleepless in Pinkville\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E10_Petercadabra_Sleepless%20in%20Pinkville.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E11_Spoon Sounds_Robotta the Artiste\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E11_Spoon%20Sounds_Robotta%20the%20Artiste.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E12_A Fairy Thanksgiving_Pinkfoot Playdate\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E12_A%20Fairy%20Thanksgiving_Pinkfoot%20Playdate.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E13_Gingerbread House_Christmas Tree Trouble\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E13_Gingerbread%20House_Christmas%20Tree%20Trouble.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E01_Butterfly Garden Party_Animal Dance\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E01_Butterfly%20Garden%20Party_Animal%20Dance.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E02_Peter_s Portrait_Pink Peepers\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E02_Peter_s%20Portrait_Pink%20Peepers.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E03_The Monster Trap_The Search for Peter_s Whistle\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E03_The%20Monster%20Trap_The%20Search%20for%20Peter_s%20Whistle.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E04_Peter_s Pet_Cupcake Calamity\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E04_Peter_s%20Pet_Cupcake%20Calamity.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E05_Paintbrush Boy and Pencil Girl_Save a Tree\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E05_Paintbrush%20Boy%20and%20Pencil%20Girl_Save%20a%20Tree.ia.mp4"}];
+            const videoUrl = videoOptions[videoIndex].path;
+            playCustomVideoByUrl(videoUrl);
+        }
+
+        function playCustomVideoByUrl(videoUrl) {
+            const videoElement = document.querySelector('#videoPlayer');
+            videoElement.src = videoUrl;
+            videoElement.play();
+        }
+
+
+        // Hàm để tự động chuyển đến video tiếp theo
+        function autoPlayNextVideo() {
+            const currentIndex = parseInt(document.querySelector('select[name="index"]').value);
+            const nextIndex = (currentIndex + 1) % 60;
+            window.location.href = `?playlist=0&index=${nextIndex}`;
+        }
+
+        // Thêm sự kiện khi video kết thúc để tự động chuyển đến video tiếp theo
+    const videoElement = document.querySelector('#videoPlayer');
+    const playlistIndex = 0;
+    const videoOptions = [{"title":"Pinkalicious & Peterrific_ A Pinkaperfect Birthday\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20A%20Pinkaperfect%20Birthday.ia.mp4"},{"title":"Pinkalicious & Peterrific_ A Pinkaperfect Birthday.ia_2\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20A%20Pinkaperfect%20Birthday.ia_2.mp4"},{"title":"Pinkalicious & Peterrific_ Cupid Calls It Quits\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20&%20Peterrific_%20Cupid%20Calls%20It%20Quits.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01_ A Pinkaperfect Birthday\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01_%20A%20Pinkaperfect%20Birthday.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E01_Fairy House_Pinkabotta and Peterbotta\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E01_Fairy%20House_Pinkabotta%20and%20Peterbotta.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E02_Slumber Party_Puptastic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E02_Slumber%20Party_Puptastic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E03_Invisible Band_Best Pink Present\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E03_Invisible%20Band_Best%20Pink%20Present.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E04_Dancing Shoes_No Honking\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E04_Dancing%20Shoes_No%20Honking.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E05_The Sand Palace_Zoo Day\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E05_The%20Sand%20Palace_Zoo%20Day.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E06_Plantastically Pink_Painting Pixie\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E06_Plantastically%20Pink_Painting%20Pixie.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E07_Pinkalicious_Glitterizer\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E07_Pinkalicious_Glitterizer.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E08_All Tangled Up_Above the Clouds\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E08_All%20Tangled%20Up_Above%20the%20Clouds.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E09_Snow Fairy_To Catch a Leaf\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E09_Snow%20Fairy_To%20Catch%20a%20Leaf.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E10_Peter_s Blues_Pink Raspberry\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E10_Peter_s%20Blues_Pink%20Raspberry.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E11_Pink Lemonade_Pink Sneakers\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E11_Pink%20Lemonade_Pink%20Sneakers.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E12_Gnome More Nonsense_Space Dancing\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E12_Gnome%20More%20Nonsense_Space%20Dancing.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E13_Indoor Camping_Flutterbugs\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E13_Indoor%20Camping_Flutterbugs.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E14_The Celebrator_Secret Sculpture\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E14_The%20Celebrator_Secret%20Sculpture.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E15_Sweet Pea Pixie_Pink Piper\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E15_Sweet%20Pea%20Pixie_Pink%20Piper.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E16_Cha-Cha-licious _ Show and Smell\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E16_Cha-Cha-licious%20_%20Show%20and%20Smell.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E17_That Unicorn Feeling _ School Rules\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E17_That%20Unicorn%20Feeling%20_%20School%20Rules.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E18_Garden Gnome Party _ Scooter Boy\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E18_Garden%20Gnome%20Party%20_%20Scooter%20Boy.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E19_Missing Squeakykins _ The Cloud-O-Matic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E19_Missing%20Squeakykins%20_%20The%20Cloud-O-Matic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E20_Dream Salon _ The Duck Stops Here\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E20_Dream%20Salon%20_%20The%20Duck%20Stops%20Here.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E21_Pink or Treat _ Berry Scary\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E21_Pink%20or%20Treat%20_%20Berry%20Scary.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E22_Sidewalk Art _ Gnome at Home\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E22_Sidewalk%20Art%20_%20Gnome%20at%20Home.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E23_Don_t Wake Norman _ Pinkasaurus\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E23_Don_t%20Wake%20Norman%20_%20Pinkasaurus.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E24_Pink Love _ Duocorn\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E24_Pink%20Love%20_%20Duocorn.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E25_Monkey Dance _ Royal Peacock Dance\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E25_Monkey%20Dance%20_%20Royal%20Peacock%20Dance.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E26_Star Light, Star Not So Bright _ The Opera-matic\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E26_Star%20Light,%20Star%20Not%20So%20Bright%20_%20The%20Opera-matic.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E27_Fashion Fun _ Welcome Pinka Bear\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E27_Fashion%20Fun%20_%20Welcome%20Pinka%20Bear.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E28_Peterrific _ Mother_s Day Surprise\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E28_Peterrific%20_%20Mother_s%20Day%20Surprise.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E29_Face Painting _ Sailing Away\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E29_Face%20Painting%20_%20Sailing%20Away.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E30_Lost Voice _ Doll Hospital\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E30_Lost%20Voice%20_%20Doll%20Hospital.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E31_Best Day Ever _ Catchy Song\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E31_Best%20Day%20Ever%20_%20Catchy%20Song.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E32_Jumping for Joy_The Pinkatoo\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E32_Jumping%20for%20Joy_The%20Pinkatoo.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E33_Knights of the Pink Table_Music Mix Up\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E33_Knights%20of%20the%20Pink%20Table_Music%20Mix%20Up.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E34_Whale of a Song_Pinkabubbles\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E34_Whale%20of%20a%20Song_Pinkabubbles.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E35_Amazing Sled Run_Frost Fairy\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E35_Amazing%20Sled%20Run_Frost%20Fairy.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E36_Drawing Noses_Pinkalicious on Ice\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E36_Drawing%20Noses_Pinkalicious%20on%20Ice.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E37_A Real Hoot_Amazing Tower of Igloos\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E37_A%20Real%20Hoot_Amazing%20Tower%20of%20Igloos.ia.mp4"},{"title":"Pinkalicious and Peterrific_S01E38_Pinkfoot_Flossie the Mossling\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S01E38_Pinkfoot_Flossie%20the%20Mossling.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E01_A Birthday Party for Kendra_Norman Plans a Playdate\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E01_A%20Birthday%20Party%20for%20Kendra_Norman%20Plans%20a%20Playdate.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E02_Aqualicious_Sing in the Spring\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E02_Aqualicious_Sing%20in%20the%20Spring.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E03_Mr_ Socko_A Pinkapurrfect Pet\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E03_Mr_%20Socko_A%20Pinkapurrfect%20Pet.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E04_Yodelahee Goat_Pink Mascot\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E04_Yodelahee%20Goat_Pink%20Mascot.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E05_The Sparkle Kart_The Pinkville Merry-Go-Round\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E05_The%20Sparkle%20Kart_The%20Pinkville%20Merry-Go-Round.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E06_Invasion of the Flutterbugs_Ballet of the Bells\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E06_Invasion%20of%20the%20Flutterbugs_Ballet%20of%20the%20Bells.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E07_Treasure Hunt_Cheer Up%2C Archie\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E07_Treasure%20Hunt_Cheer%20Up%2C%20Archie.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E08_PinkaPolka Dotty_Lila Gets Glasses\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E08_PinkaPolka%20Dotty_Lila%20Gets%20Glasses.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E09_Invisible Ink_Rusty_s Doghouse\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E09_Invisible%20Ink_Rusty_s%20Doghouse.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E10_Petercadabra_Sleepless in Pinkville\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E10_Petercadabra_Sleepless%20in%20Pinkville.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E11_Spoon Sounds_Robotta the Artiste\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E11_Spoon%20Sounds_Robotta%20the%20Artiste.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E12_A Fairy Thanksgiving_Pinkfoot Playdate\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E12_A%20Fairy%20Thanksgiving_Pinkfoot%20Playdate.ia.mp4"},{"title":"Pinkalicious and Peterrific_S02E13_Gingerbread House_Christmas Tree Trouble\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S02E13_Gingerbread%20House_Christmas%20Tree%20Trouble.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E01_Butterfly Garden Party_Animal Dance\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E01_Butterfly%20Garden%20Party_Animal%20Dance.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E02_Peter_s Portrait_Pink Peepers\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E02_Peter_s%20Portrait_Pink%20Peepers.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E03_The Monster Trap_The Search for Peter_s Whistle\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E03_The%20Monster%20Trap_The%20Search%20for%20Peter_s%20Whistle.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E04_Peter_s Pet_Cupcake Calamity\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E04_Peter_s%20Pet_Cupcake%20Calamity.ia.mp4"},{"title":"Pinkalicious and Peterrific_S03E05_Paintbrush Boy and Pencil Girl_Save a Tree\r","path":"https:\/\/abeka.chiaseacc.us\/data\/tonghopphim\/PBS%20KIDS\/PINKALICIOUS\/Pinkalicious%20and%20Peterrific_S03E05_Paintbrush%20Boy%20and%20Pencil%20Girl_Save%20a%20Tree.ia.mp4"}];
+
+    if (videoElement) {
+        videoElement.addEventListener('ended', () => {
+            autoPlayNextVideo();
+        });
+    }
+
+    function autoPlayNextVideo() {
+        const currentIndex = parseInt(document.querySelector('select[name="index"]').value);
+        const nextIndex = (currentIndex + 1) % 60;
+
+        // Cập nhật URL video mới và chơi video
+        const nextVideoUrl = videoOptions[nextIndex].path;
+        playCustomVideoByUrl(nextVideoUrl);
+
+        // Cập nhật giá trị index trong dropdown để đồng bộ với video mới
+        document.querySelector('select[name="index"]').value = nextIndex;
+    }
+
+    // Thêm sự kiện khi thay đổi video được chọn
+    function onVideoChange(selectElement) {
+        const playlistIndex = document.querySelector('select[name="playlist"]').value;
+        const videoIndex = selectElement.value;
+        const videoUrl = videoOptions[videoIndex].path;
+        playCustomVideoByUrl(videoUrl);
+    }
+
+    function playCustomVideoByUrl(videoUrl) {
+        const videoElement = document.querySelector('#videoPlayer');
+        videoElement.src = videoUrl;
+        videoElement.play();
+    }
+
+        // Thêm sự kiện khi nút "Replay" được nhấn để lặp lại video
+        const replayButton = document.querySelector('#replayButton');
+        if (replayButton) {
+            replayButton.addEventListener('click', () => {
+                replayVideo();
+            });
+        }
+
+        // Hàm để lặp lại video hiện tại
+        function replayVideo() {
+            const videoElement = document.querySelector('#videoPlayer');
+            if (videoElement) {
+                videoElement.currentTime = 0; // Đặt thời gian video về 0 để lặp lại từ đầu
+                videoElement.play();
+            }
+        }
+    </script>
+              <!-- End Table with stripped rows -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span><a href="https://www.facebook.com/groups/1341950386450087">Nhóm Công Nghệ 4.0 </a></span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Code by <a href="https://www.facebook.com/profile.php?id=61551473747491">Bùi Mạnh Hưng.</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
